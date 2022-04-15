@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Performs sanity checks on the scoped app: GeoData
+</description>
+        <display_name>DevTools - Check scoped app sanity</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>1</order>
+        <snapshot/>
+        <step_config display_value="DevTools - Check scoped app sanity">786a921f1b6c2090a89720a8ec4bcbc9</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-15 23:41:02</sys_created_on>
+        <sys_id>b38e2887dbf6cd10bcced03cd396191d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>DevTools - Check scoped app sanity</sys_name>
+        <sys_package display_value="GeoData WORK IN PROGRESS" source="x_snc_geodata">f9cb2003dbf6cd10bcced03cd396199e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GeoData WORK IN PROGRESS">f9cb2003dbf6cd10bcced03cd396199e</sys_scope>
+        <sys_update_name>sys_atf_step_b38e2887dbf6cd10bcced03cd396191d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-15 23:41:02</sys_updated_on>
+        <table/>
+        <test display_value="GeoData - Implementation">f3bcac43dbf6cd10bcced03cd3961920</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=b38e2887dbf6cd10bcced03cd396191d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>b38e2887dbf6cd10bcced03cd396191d</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-15 23:41:02</sys_created_on>
+        <sys_id>a59e2487dbf6cd10bcced03cd39619d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-15 23:41:02</sys_updated_on>
+        <value>f9cb2003dbf6cd10bcced03cd396199e</value>
+        <variable display_value="Application">8a0aaa9f1bac2090a89720a8ec4bcbc8</variable>
+    </sys_variable_value>
+</record_update>
