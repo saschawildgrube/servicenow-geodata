@@ -75,7 +75,7 @@
     </sys_dictionary>
     <sys_update_version action="INSERT_OR_UPDATE">
         <action>DELETE</action>
-        <application display_value="GeoData">f9cb2003dbf6cd10bcced03cd396199e</application>
+        <application display_value="GeoData WORK IN PROGRESS">f9cb2003dbf6cd10bcced03cd396199e</application>
         <file_path/>
         <instance_id>f492329ddb5849108aea21c405961946</instance_id>
         <instance_name>wildgrubedevquebec</instance_name>
@@ -113,10 +113,10 @@
         <sys_metadata>5b43304fdbf6cd10bcced03cd3961905</sys_metadata>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>European Union</sys_name>
-        <sys_package display_value="GeoData" source="x_snc_geodata">f9cb2003dbf6cd10bcced03cd396199e</sys_package>
+        <sys_package display_value="GeoData WORK IN PROGRESS" source="x_snc_geodata">f9cb2003dbf6cd10bcced03cd396199e</sys_package>
         <sys_parent display_value="Company">bba5fa11db100110b652edb305961982</sys_parent>
         <sys_policy/>
-        <sys_scope display_value="GeoData">f9cb2003dbf6cd10bcced03cd396199e</sys_scope>
+        <sys_scope display_value="GeoData WORK IN PROGRESS">f9cb2003dbf6cd10bcced03cd396199e</sys_scope>
         <sys_scope_delete display_value="">4115b8b209934a5e90efa836161a0d24</sys_scope_delete>
         <sys_update_name>sys_dictionary_core_company_x_snc_geodata_eu</sys_update_name>
         <sys_update_version display_value="sys_dictionary_core_company_x_snc_geodata_eu">dc63704fdbf6cd10bcced03cd396199a</sys_update_version>
