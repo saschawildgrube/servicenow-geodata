@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_snc_geodata.AppInstall</api_name>
+        <caller_access>1</caller_access>
+        <client_callable>false</client_callable>
+        <description>This script installs GeoData.</description>
+        <name>AppInstall</name>
+        <script><![CDATA[function AppInstall()
+{
+	var installer = new x_snc_devtools.InstallerAPI();
+
+	function SetCountryEuropeanUnion(strCountry, bValue)
+	{
+		installer.RecordInsertOrUpdate('Set '+strCountry+' EU member status to '+x_snc_devtools.RenderValue(bValue),
+			'core_country',
+			{ iso3166_3: strCountry },
+			{},
+			{ x_snc_geodata_european_union: bValue});
+	}
+
+	function SetCountrySchengen(strCountry, bValue)
+	{
+		installer.RecordInsertOrUpdate('Set '+strCountry+' Schengen member status to '+x_snc_devtools.RenderValue(bValue),
+			'core_country',
+			{ iso3166_3: strCountry },
+			{},
+			{ x_snc_geodata_schengen: bValue});
+	}
+
+	
+	SetCountryEuropeanUnion('AUT',true);
+	SetCountryEuropeanUnion('BEL',true);
+	SetCountryEuropeanUnion('BGR',true);
+	SetCountryEuropeanUnion('HRV',true);
+	SetCountryEuropeanUnion('CYP',true);
+	SetCountryEuropeanUnion('CZE',true);
+	SetCountryEuropeanUnion('DNK',true);
+	SetCountryEuropeanUnion('EST',true);
+	SetCountryEuropeanUnion('FIN',true);
+	SetCountryEuropeanUnion('FRA',true);
+	SetCountryEuropeanUnion('DEU',true);
+	SetCountryEuropeanUnion('GRC',true);
+	SetCountryEuropeanUnion('HUN',true);
+	SetCountryEuropeanUnion('IRL',true);
+	SetCountryEuropeanUnion('ITA',true);
+	SetCountryEuropeanUnion('LVA',true);
+	SetCountryEuropeanUnion('LTU',true);
+	SetCountryEuropeanUnion('LUX',true);
+	SetCountryEuropeanUnion('MLT',true);
+	SetCountryEuropeanUnion('NLD',true);
+	SetCountryEuropeanUnion('POL',true);
+	SetCountryEuropeanUnion('PRT',true);
+	SetCountryEuropeanUnion('ROU',true);
+	SetCountryEuropeanUnion('SVK',true);
+	SetCountryEuropeanUnion('SVN',true);
+	SetCountryEuropeanUnion('ESP',true);
+	SetCountryEuropeanUnion('SWE',true);	
+	
+
+	SetCountrySchengen('AUT',true);
+	SetCountrySchengen('BEL',true);
+	SetCountrySchengen('CZE',true);
+	SetCountrySchengen('DNK',true);
+	SetCountrySchengen('EST',true);
+	SetCountrySchengen('FIN',true);
+	SetCountrySchengen('FRA',true);
+	SetCountrySchengen('DEU',true);
+	SetCountrySchengen('GRC',true);
+	SetCountrySchengen('HUN',true);
+	SetCountrySchengen('ISL',true);
+	SetCountrySchengen('ITA',true);
+	SetCountrySchengen('LVA',true);
+	SetCountrySchengen('LIE',true);
+	SetCountrySchengen('LTU',true);
+	SetCountrySchengen('LUX',true);
+	SetCountrySchengen('MLT',true);
+	SetCountrySchengen('NLD',true);
+	SetCountrySchengen('NOR',true);
+	SetCountrySchengen('POL',true);
+	SetCountrySchengen('PRT',true);
+	SetCountrySchengen('SVK',true);
+	SetCountrySchengen('SVN',true);
+	SetCountrySchengen('ESP',true);
+	SetCountrySchengen('SWE',true);
+	SetCountrySchengen('CHE',true);
+
+	
+
+	
+	installer.RecordInsertOrUpdate('Set TWN name to "Taiwan".',
+		'core_country',
+		{ iso3166_3: 'TWN' },
+		{},
+		{ name: 'Taiwan'});		
+	
+	return installer.Finish();
+}
+]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-15 23:32:59</sys_created_on>
+        <sys_id>2bbc6c43dbf6cd10bcced03cd39619f3</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>AppInstall</sys_name>
+        <sys_package display_value="GeoData" source="x_snc_geodata">f9cb2003dbf6cd10bcced03cd396199e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GeoData">f9cb2003dbf6cd10bcced03cd396199e</sys_scope>
+        <sys_update_name>sys_script_include_2bbc6c43dbf6cd10bcced03cd39619f3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-16 08:27:27</sys_updated_on>
+    </sys_script_include>
+</record_update>
