@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element attributes="all_tables.text_index_translations=true,global_search_config_handler=CompanySearchConfig" create_roles="user_admin" label="Company" max_length="40" name="core_company" sizeclass="179" text_index="true" type="collection">
-        <element label="European Union" max_length="40" name="x_snc_geodata_european_union" type="boolean"/>
+        <element label="European Union" max_length="40" name="x_snc_geodata_eu" type="boolean"/>
     </element>
 </database>
