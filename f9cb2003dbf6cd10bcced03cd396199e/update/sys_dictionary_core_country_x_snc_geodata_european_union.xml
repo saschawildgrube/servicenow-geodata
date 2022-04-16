@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="x_snc_geodata_eu" table="core_company">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="x_snc_geodata_european_union" table="core_country">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -27,7 +27,7 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>x_snc_geodata_eu</element>
+        <element>x_snc_geodata_european_union</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
@@ -35,7 +35,7 @@
         <internal_type display_value="">boolean</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <name>core_company</name>
+        <name>core_country</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
@@ -52,16 +52,16 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-04-16 00:01:59</sys_created_on>
-        <sys_id>5b43304fdbf6cd10bcced03cd3961905</sys_id>
+        <sys_created_on>2022-04-16 00:13:32</sys_created_on>
+        <sys_id>32e538cfdbf6cd10bcced03cd3961966</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>European Union</sys_name>
         <sys_package display_value="GeoData WORK IN PROGRESS" source="x_snc_geodata">f9cb2003dbf6cd10bcced03cd396199e</sys_package>
         <sys_policy/>
         <sys_scope display_value="GeoData WORK IN PROGRESS">f9cb2003dbf6cd10bcced03cd396199e</sys_scope>
-        <sys_update_name>sys_dictionary_core_company_x_snc_geodata_eu</sys_update_name>
+        <sys_update_name>sys_dictionary_core_country_x_snc_geodata_european_union</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-04-16 00:01:59</sys_updated_on>
+        <sys_updated_on>2022-04-16 00:13:32</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
