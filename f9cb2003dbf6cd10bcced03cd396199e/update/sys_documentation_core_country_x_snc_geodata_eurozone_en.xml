@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="x_snc_geodata_eurozone" label="Eurozone" language="en" table="core_country">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>x_snc_geodata_eurozone</element>
+            <help/>
+            <hint/>
+            <label>Eurozone</label>
+            <language>en</language>
+            <name>core_country</name>
+            <plural>Eurozones</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-01-02 16:12:16</sys_created_on>
+            <sys_id>4668dcd71bc061905b76777d8b4bcb17</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Eurozone</sys_name>
+            <sys_package display_value="GeoData WORK IN PROGRESS" source="x_snc_geodata">f9cb2003dbf6cd10bcced03cd396199e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="GeoData WORK IN PROGRESS">f9cb2003dbf6cd10bcced03cd396199e</sys_scope>
+            <sys_update_name>sys_documentation_core_country_x_snc_geodata_eurozone_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-01-02 16:12:16</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

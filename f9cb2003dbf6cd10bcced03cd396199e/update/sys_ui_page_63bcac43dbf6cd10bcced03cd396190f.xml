@@ -39,7 +39,8 @@
 			docapi.RenderInstallationInstructionsImportFromSourceControl(
 				'DevTools',
 				'https://github.com/saschawildgrube/servicenow-devtools',
-				true);
+				true,
+				'https://www.wildgrube.com/servicenow-devtools');
 		]</g2:no_escape>
 		<g2:no_escape>$[
 			docapi.RenderInstallationInstructionsImportFromSourceControl(
@@ -99,6 +100,7 @@
 		<li>Tokyo is now supported.</li>
 		<li>DevTools 1.50.0 is now required.</li>
 		<li>Croatia joined the Schengen area on January 1st, 2023.</li>
+		<li>Eurozone member status is now supported.</li>
 		<li>AppInstall() now also executes DevTools' AppInstall() function.</li>
 	</ol>
 
@@ -115,13 +117,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-04-15 23:32:59</sys_created_on>
         <sys_id>63bcac43dbf6cd10bcced03cd396190f</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name>manual</sys_name>
         <sys_package display_value="GeoData WORK IN PROGRESS" source="x_snc_geodata">f9cb2003dbf6cd10bcced03cd396199e</sys_package>
         <sys_policy/>
         <sys_scope display_value="GeoData WORK IN PROGRESS">f9cb2003dbf6cd10bcced03cd396199e</sys_scope>
         <sys_update_name>sys_ui_page_63bcac43dbf6cd10bcced03cd396190f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-01-02 08:30:58</sys_updated_on>
+        <sys_updated_on>2023-01-02 16:21:17</sys_updated_on>
     </sys_ui_page>
 </record_update>
