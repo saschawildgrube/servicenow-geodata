@@ -14,14 +14,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-04-16 10:37:30</sys_created_on>
         <sys_id>df444b8fdb3a0150bcced03cd39619ff</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Run Server Side Script</sys_name>
         <sys_package display_value="GeoData WORK IN PROGRESS" source="x_snc_geodata">f9cb2003dbf6cd10bcced03cd396199e</sys_package>
         <sys_policy/>
         <sys_scope display_value="GeoData WORK IN PROGRESS">f9cb2003dbf6cd10bcced03cd396199e</sys_scope>
         <sys_update_name>sys_atf_step_df444b8fdb3a0150bcced03cd39619ff</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-04-16 10:38:09</sys_updated_on>
+        <sys_updated_on>2023-01-02 16:24:55</sys_updated_on>
         <table/>
         <test display_value="GeoData - Count member states">c2340b8fdb3a0150bcced03cd3961966</test>
         <timeout/>
@@ -36,9 +36,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-04-16 10:37:30</sys_created_on>
         <sys_id>a5d4cfcfdb3a0150bcced03cd39619c5</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-04-16 10:38:09</sys_updated_on>
+        <sys_updated_on>2023-01-02 16:24:55</sys_updated_on>
         <value>(function(outputs, steps, stepResult, assertEqual)&#13;
 {&#13;
 	var test = new x_snc_devtools.TestAPI(outputs, steps, stepResult, assertEqual);&#13;
@@ -49,9 +49,9 @@
 	var grCountry = new GlideRecord('core_country');&#13;
 	grCountry.addQuery('x_snc_geodata_schengen','=','true');&#13;
 	grCountry.query();&#13;
-	if (grCountry.getRowCount() != 26)&#13;
+	if (grCountry.getRowCount() != 27)&#13;
 	{&#13;
-		test.Log('There should be 26 Schengen member states. Found: '+grCountry.getRowCount());&#13;
+		test.Log('There should be 27 Schengen member states. Found: '+grCountry.getRowCount());&#13;
 		test.SetResult(false);&#13;
 	}&#13;
 &#13;
@@ -64,6 +64,14 @@
 		test.SetResult(false);&#13;
 	}&#13;
 &#13;
+	var grCountry = new GlideRecord('core_country');&#13;
+	grCountry.addQuery('x_snc_geodata_eurozone','=','true');&#13;
+	grCountry.query();&#13;
+	if (grCountry.getRowCount() != 20)&#13;
+	{&#13;
+		test.Log('There should be 20 Eurozone member states. Found: '+grCountry.getRowCount());&#13;
+		test.SetResult(false);&#13;
+	}	&#13;
 &#13;
 	&#13;
 	return test.GetResult();&#13;
