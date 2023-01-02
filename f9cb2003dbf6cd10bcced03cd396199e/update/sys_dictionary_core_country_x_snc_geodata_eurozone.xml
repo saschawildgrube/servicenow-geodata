@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="x_snc_geodata_schengen" table="core_country">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="x_snc_geodata_eurozone" table="core_country">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -14,7 +14,7 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Schengen</column_label>
+        <column_label>Eurozone</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -27,7 +27,7 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>x_snc_geodata_schengen</element>
+        <element>x_snc_geodata_eurozone</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
@@ -52,16 +52,16 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-04-16 00:14:32</sys_created_on>
-        <sys_id>5e26f8cfdbf6cd10bcced03cd39619ca</sys_id>
+        <sys_created_on>2023-01-02 16:12:15</sys_created_on>
+        <sys_id>7d58d01b1bc061905b76777d8b4bcbd0</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Schengen</sys_name>
+        <sys_name>Eurozone</sys_name>
         <sys_package display_value="GeoData WORK IN PROGRESS" source="x_snc_geodata">f9cb2003dbf6cd10bcced03cd396199e</sys_package>
         <sys_policy/>
         <sys_scope display_value="GeoData WORK IN PROGRESS">f9cb2003dbf6cd10bcced03cd396199e</sys_scope>
-        <sys_update_name>sys_dictionary_core_country_x_snc_geodata_schengen</sys_update_name>
+        <sys_update_name>sys_dictionary_core_country_x_snc_geodata_eurozone</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-04-16 00:14:32</sys_updated_on>
+        <sys_updated_on>2023-01-02 16:12:15</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

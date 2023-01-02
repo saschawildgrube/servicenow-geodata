@@ -9,7 +9,9 @@
         <name>AppInstall</name>
         <script><![CDATA[function AppInstall()
 {
-	var installer = new x_snc_devtools.InstallerAPI();
+	x_snc_devtools.AppInstall();
+	
+	var installer = new x_snc_devtools.InstallerAPI(x_snc_devtools.GetAppName('x_snc_geodata'));
 
 	function SetCountryEuropeanUnion(strCountry, bValue)
 	{
@@ -20,6 +22,15 @@
 			{ x_snc_geodata_european_union: bValue});
 	}
 
+	function SetCountryEurozone(strCountry, bValue)
+	{
+		installer.RecordInsertOrUpdate('Set '+strCountry+' Eurozone status to '+x_snc_devtools.RenderValue(bValue),
+			'core_country',
+			{ iso3166_3: strCountry },
+			{},
+			{ x_snc_geodata_eurozone: bValue});
+	}	
+	
 	function SetCountrySchengen(strCountry, bValue)
 	{
 		installer.RecordInsertOrUpdate('Set '+strCountry+' Schengen member status to '+x_snc_devtools.RenderValue(bValue),
@@ -28,12 +39,13 @@
 			{},
 			{ x_snc_geodata_schengen: bValue});
 	}
+	
+
 
 	
 	SetCountryEuropeanUnion('AUT',true);
 	SetCountryEuropeanUnion('BEL',true);
 	SetCountryEuropeanUnion('BGR',true);
-	SetCountryEuropeanUnion('HRV',true);
 	SetCountryEuropeanUnion('CYP',true);
 	SetCountryEuropeanUnion('CZE',true);
 	SetCountryEuropeanUnion('DNK',true);
@@ -42,6 +54,7 @@
 	SetCountryEuropeanUnion('FRA',true);
 	SetCountryEuropeanUnion('DEU',true);
 	SetCountryEuropeanUnion('GRC',true);
+	SetCountryEuropeanUnion('HRV',true);
 	SetCountryEuropeanUnion('HUN',true);
 	SetCountryEuropeanUnion('IRL',true);
 	SetCountryEuropeanUnion('ITA',true);
@@ -57,6 +70,27 @@
 	SetCountryEuropeanUnion('SVN',true);
 	SetCountryEuropeanUnion('ESP',true);
 	SetCountryEuropeanUnion('SWE',true);	
+
+	SetCountryEurozone('AUT',true);
+	SetCountryEurozone('BEL',true);
+	SetCountryEurozone('HRV',true);
+	SetCountryEurozone('CYP',true);
+	SetCountryEurozone('EST',true);
+	SetCountryEurozone('FIN',true);
+	SetCountryEurozone('FRA',true);
+	SetCountryEurozone('DEU',true);
+	SetCountryEurozone('GRC',true);	
+	SetCountryEurozone('IRL',true);
+	SetCountryEurozone('ITA',true);	
+	SetCountryEurozone('LVA',true);	
+	SetCountryEurozone('LTU',true);
+	SetCountryEurozone('LUX',true);
+	SetCountryEurozone('MLT',true);
+	SetCountryEurozone('NLD',true);
+	SetCountryEurozone('PRT',true);
+	SetCountryEurozone('SVK',true);	
+	SetCountryEurozone('SVN',true);	
+	SetCountryEurozone('ESP',true);
 	
 
 	SetCountrySchengen('AUT',true);
@@ -68,6 +102,7 @@
 	SetCountrySchengen('FRA',true);
 	SetCountrySchengen('DEU',true);
 	SetCountrySchengen('GRC',true);
+	SetCountrySchengen('HRV',true);
 	SetCountrySchengen('HUN',true);
 	SetCountrySchengen('ISL',true);
 	SetCountrySchengen('ITA',true);
@@ -102,13 +137,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-04-15 23:32:59</sys_created_on>
         <sys_id>2bbc6c43dbf6cd10bcced03cd39619f3</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name>AppInstall</sys_name>
-        <sys_package display_value="GeoData" source="x_snc_geodata">f9cb2003dbf6cd10bcced03cd396199e</sys_package>
+        <sys_package display_value="GeoData WORK IN PROGRESS" source="x_snc_geodata">f9cb2003dbf6cd10bcced03cd396199e</sys_package>
         <sys_policy/>
-        <sys_scope display_value="GeoData">f9cb2003dbf6cd10bcced03cd396199e</sys_scope>
+        <sys_scope display_value="GeoData WORK IN PROGRESS">f9cb2003dbf6cd10bcced03cd396199e</sys_scope>
         <sys_update_name>sys_script_include_2bbc6c43dbf6cd10bcced03cd39619f3</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-04-16 08:27:27</sys_updated_on>
+        <sys_updated_on>2023-01-02 16:20:04</sys_updated_on>
     </sys_script_include>
 </record_update>
