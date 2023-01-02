@@ -35,7 +35,6 @@
 	SetCountryEuropeanUnion('AUT',true);
 	SetCountryEuropeanUnion('BEL',true);
 	SetCountryEuropeanUnion('BGR',true);
-	SetCountryEuropeanUnion('HRV',true);
 	SetCountryEuropeanUnion('CYP',true);
 	SetCountryEuropeanUnion('CZE',true);
 	SetCountryEuropeanUnion('DNK',true);
@@ -44,6 +43,7 @@
 	SetCountryEuropeanUnion('FRA',true);
 	SetCountryEuropeanUnion('DEU',true);
 	SetCountryEuropeanUnion('GRC',true);
+	SetCountryEuropeanUnion('HRV',true);
 	SetCountryEuropeanUnion('HUN',true);
 	SetCountryEuropeanUnion('IRL',true);
 	SetCountryEuropeanUnion('ITA',true);
@@ -70,6 +70,7 @@
 	SetCountrySchengen('FRA',true);
 	SetCountrySchengen('DEU',true);
 	SetCountrySchengen('GRC',true);
+	SetCountrySchengen('HRV',true);
 	SetCountrySchengen('HUN',true);
 	SetCountrySchengen('ISL',true);
 	SetCountrySchengen('ITA',true);
@@ -104,13 +105,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-04-15 23:32:59</sys_created_on>
         <sys_id>2bbc6c43dbf6cd10bcced03cd39619f3</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name>AppInstall</sys_name>
         <sys_package display_value="GeoData WORK IN PROGRESS" source="x_snc_geodata">f9cb2003dbf6cd10bcced03cd396199e</sys_package>
         <sys_policy/>
         <sys_scope display_value="GeoData WORK IN PROGRESS">f9cb2003dbf6cd10bcced03cd396199e</sys_scope>
         <sys_update_name>sys_script_include_2bbc6c43dbf6cd10bcced03cd39619f3</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-05-01 15:20:24</sys_updated_on>
+        <sys_updated_on>2023-01-02 08:30:10</sys_updated_on>
     </sys_script_include>
 </record_update>
