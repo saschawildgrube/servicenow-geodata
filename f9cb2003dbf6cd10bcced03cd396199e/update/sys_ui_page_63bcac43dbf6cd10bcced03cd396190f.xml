@@ -27,7 +27,7 @@
 	<ul>
 		<g2:no_escape>$[
 			docapi.RenderSystemRequirements(
-				'San Diego,Tokyo',
+				'Tokyo,Utah',
 				true,
 				AppGetDependencies());
 		]</g2:no_escape>	
@@ -96,6 +96,9 @@
 
 	<h3>1.2.0 - 2023-TODO</h3>
 	<ol>
+		<li>San Diego is no longer actively supported.</li>
+		<li>GeoData is fully tested in Utah.</li>
+		<li>Added Eurozone to the Country form section.</li>
 		<li>AppInstall() now longer executes DevTools' AppInstall() function.</li>
 		<li>Updated feature description to cover Eurozone.</li>
 	</ol>
@@ -124,13 +127,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-04-15 23:32:59</sys_created_on>
         <sys_id>63bcac43dbf6cd10bcced03cd396190f</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name>manual</sys_name>
         <sys_package display_value="GeoData WORK IN PROGRESS" source="x_snc_geodata">f9cb2003dbf6cd10bcced03cd396199e</sys_package>
         <sys_policy/>
         <sys_scope display_value="GeoData WORK IN PROGRESS">f9cb2003dbf6cd10bcced03cd396199e</sys_scope>
         <sys_update_name>sys_ui_page_63bcac43dbf6cd10bcced03cd396190f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-02-19 19:10:04</sys_updated_on>
+        <sys_updated_on>2023-04-01 11:41:58</sys_updated_on>
     </sys_ui_page>
 </record_update>
