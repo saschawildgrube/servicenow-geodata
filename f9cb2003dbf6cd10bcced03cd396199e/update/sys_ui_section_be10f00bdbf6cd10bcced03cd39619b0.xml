@@ -1,46 +1,102 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="Member Status" section_id="be10f00bdbf6cd10bcced03cd39619b0" sys_domain="global" table="core_country" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>x_snc_geodata_european_union</element>
+            <element>.begin_split</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-04-01 11:39:16</sys_created_on>
-            <sys_id>2a6fadff97fda550a6a07767f053afd3</sys_id>
+            <sys_created_on>2023-04-07 07:57:34</sys_created_on>
+            <sys_id>3d3637e597026510a6a07767f053af3c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Member Status" display_value="Member Status" name="core_country" sys_domain="global" view="Default view">be10f00bdbf6cd10bcced03cd39619b0</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-04-01 11:39:16</sys_updated_on>
+            <sys_updated_on>2023-04-07 07:57:34</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_snc_geodata_european_union</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-07 07:57:34</sys_created_on>
+            <sys_id>f13637e597026510a6a07767f053af3d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Member Status" display_value="Member Status" name="core_country" sys_domain="global" view="Default view">be10f00bdbf6cd10bcced03cd39619b0</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-07 07:57:34</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>x_snc_geodata_schengen</element>
-            <position>1</position>
+            <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-04-01 11:39:16</sys_created_on>
-            <sys_id>ae6fadff97fda550a6a07767f053afd3</sys_id>
+            <sys_created_on>2023-04-07 07:57:34</sys_created_on>
+            <sys_id>753637e597026510a6a07767f053af3d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Member Status" display_value="Member Status" name="core_country" sys_domain="global" view="Default view">be10f00bdbf6cd10bcced03cd39619b0</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-04-01 11:39:16</sys_updated_on>
+            <sys_updated_on>2023-04-07 07:57:34</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>x_snc_geodata_eurozone</element>
-            <position>2</position>
+            <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-04-01 11:39:16</sys_created_on>
-            <sys_id>226fadff97fda550a6a07767f053afd4</sys_id>
+            <sys_created_on>2023-04-07 07:57:34</sys_created_on>
+            <sys_id>f53637e597026510a6a07767f053af3d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Member Status" display_value="Member Status" name="core_country" sys_domain="global" view="Default view">be10f00bdbf6cd10bcced03cd39619b0</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-04-01 11:39:16</sys_updated_on>
+            <sys_updated_on>2023-04-07 07:57:34</sys_updated_on>
             <sys_user/>
             <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-07 07:57:34</sys_created_on>
+            <sys_id>793637e597026510a6a07767f053af3d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Member Status" display_value="Member Status" name="core_country" sys_domain="global" view="Default view">be10f00bdbf6cd10bcced03cd39619b0</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-07 07:57:34</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_snc_geodata_nato</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-07 07:57:34</sys_created_on>
+            <sys_id>f93637e597026510a6a07767f053af3d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Member Status" display_value="Member Status" name="core_country" sys_domain="global" view="Default view">be10f00bdbf6cd10bcced03cd39619b0</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-07 07:57:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-07 07:57:34</sys_created_on>
+            <sys_id>7d3637e597026510a6a07767f053af3d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Member Status" display_value="Member Status" name="core_country" sys_domain="global" view="Default view">be10f00bdbf6cd10bcced03cd39619b0</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-07 07:57:34</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption>Member Status</caption>
