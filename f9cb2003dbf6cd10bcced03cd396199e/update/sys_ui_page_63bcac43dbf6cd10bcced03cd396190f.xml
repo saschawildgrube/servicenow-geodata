@@ -17,8 +17,16 @@
 	<p>Welcome to GeoData - created and maintained by&#160;<a href="mailto:sascha.wildgrube@servicenow.com">Sascha Wildgrube</a>.</p>
 
 	<h2>Features</h2> 
-	<p>Provides information about which country is a member in the European Union and the Schengen agreement.</p>
-	<p>Sets Taiwan's name to "Taiwan".</p>
+	<p>Provides information about which country is a member of</p>
+	<ul>
+		<li>the European Union</li>
+		<li>the Eurozone</li>
+		<li>the Schengen agreement</li>
+		<li>NATO</li>
+	</ul>
+	<p>Sets the name for "Taiwan".</p>
+	<p>Sets the name for "Türkiye".</p>
+	<p>Sets the name for "North Macedonia".</p>
 
 	<h2>Disclaimer</h2>
 	<g2:no_escape>$[docapi.RenderDisclaimer()]</g2:no_escape>	
@@ -27,7 +35,7 @@
 	<ul>
 		<g2:no_escape>$[
 			docapi.RenderSystemRequirements(
-				'San Diego,Tokyo',
+				'Tokyo,Utah',
 				true,
 				AppGetDependencies());
 		]</g2:no_escape>	
@@ -88,11 +96,24 @@
 	
 	<h2>Release Notes</h2>
 <!--
-	<h3>1.1.0 - 2022-TODO</h3>
+	<h3>1.3.0 - 2023-TODO</h3>
 	<ol>
 		<li>TODO: document changes here</li>
 	</ol>
 -->
+
+	<h3>1.2.0 - 2023-04-07</h3>
+	<ol>
+		<li>San Diego is no longer actively supported.</li>
+		<li>GeoData is fully tested in Utah.</li>
+		<li>Added NATO member status. Welcome Finland to NATO!</li>
+		<li>Set name for Türkiye.</li>
+		<li>Set name for North Macedonia.</li>
+		<li>Added Eurozone to the Country form section.</li>
+		<li>AppInstall() now longer executes DevTools' AppInstall() function.</li>
+		<li>Updated feature description to cover Eurozone.</li>
+	</ol>
+
 	
 	<h3>1.1.0 - 2023-01-02</h3>
 	<ol>
@@ -117,13 +138,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-04-15 23:32:59</sys_created_on>
         <sys_id>63bcac43dbf6cd10bcced03cd396190f</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_name>manual</sys_name>
-        <sys_package display_value="GeoData" source="x_snc_geodata">f9cb2003dbf6cd10bcced03cd396199e</sys_package>
+        <sys_package display_value="GeoData WORK IN PROGRESS" source="x_snc_geodata">f9cb2003dbf6cd10bcced03cd396199e</sys_package>
         <sys_policy/>
-        <sys_scope display_value="GeoData">f9cb2003dbf6cd10bcced03cd396199e</sys_scope>
+        <sys_scope display_value="GeoData WORK IN PROGRESS">f9cb2003dbf6cd10bcced03cd396199e</sys_scope>
         <sys_update_name>sys_ui_page_63bcac43dbf6cd10bcced03cd396190f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-01-02 17:04:20</sys_updated_on>
+        <sys_updated_on>2023-04-07 08:23:52</sys_updated_on>
     </sys_ui_page>
 </record_update>

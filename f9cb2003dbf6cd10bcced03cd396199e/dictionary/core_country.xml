@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element attributes="all_tables.text_index_translations=true" create_roles="user_admin" label="Country" max_length="40" name="core_country" sizeclass="231" text_index="true" type="collection">
+    <element attributes="all_tables.text_index_translations=true" create_roles="user_admin" db_object_id="b980eb33753011108c8b143dd0c59f49" label="Country" max_length="40" name="core_country" text_index="true" type="collection">
         <element label="European Union" max_length="40" name="x_snc_geodata_european_union" type="boolean"/>
         <element label="Eurozone" max_length="40" name="x_snc_geodata_eurozone" type="boolean"/>
+        <element label="NATO" max_length="40" name="x_snc_geodata_nato" type="boolean"/>
         <element label="Schengen" max_length="40" name="x_snc_geodata_schengen" type="boolean"/>
     </element>
 </database>
