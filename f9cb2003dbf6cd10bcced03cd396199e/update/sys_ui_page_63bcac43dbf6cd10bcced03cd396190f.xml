@@ -16,6 +16,9 @@
 	
 	<p>Welcome to GeoData - created and maintained by&#160;<a href="mailto:sascha.wildgrube@servicenow.com">Sascha Wildgrube</a>.</p>
 
+	<p>This app was built to help organizing the shipment of medical supplies to the Ukraine during the full-scale invation that started in February 2022.</p>
+	<p>It is dedicated to the people of Ukraine, their resistance and to everyone who invests their time and resources to help.</p> 	
+	
 	<h2>Features</h2> 
 	<p>Provides information about which country is a member of</p>
 	<ul>
@@ -143,13 +146,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-04-15 23:32:59</sys_created_on>
         <sys_id>63bcac43dbf6cd10bcced03cd396190f</sys_id>
-        <sys_mod_count>24</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_name>manual</sys_name>
         <sys_package display_value="GeoData WORK IN PROGRESS" source="x_snc_geodata">f9cb2003dbf6cd10bcced03cd396199e</sys_package>
         <sys_policy/>
         <sys_scope display_value="GeoData WORK IN PROGRESS">f9cb2003dbf6cd10bcced03cd396199e</sys_scope>
         <sys_update_name>sys_ui_page_63bcac43dbf6cd10bcced03cd396190f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-24 05:35:48</sys_updated_on>
+        <sys_updated_on>2023-08-08 07:45:31</sys_updated_on>
     </sys_ui_page>
 </record_update>
