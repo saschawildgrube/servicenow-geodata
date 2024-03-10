@@ -12,6 +12,10 @@
 	linkdirectory['GeoData'] =
 	[
 		{
+			title: 'European Union',
+			url: 'https://en.wikipedia.org/wiki/European_Union'
+		},
+		{
 			title: 'NATO',
 			url: 'https://www.nato.int/cps/en/natohq/nato_countries.htm'
 		}
@@ -22,13 +26,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-04-15 23:32:59</sys_created_on>
         <sys_id>a3bcac43dbf6cd10bcced03cd3961905</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>DevToolsGetLinkDirectory</sys_name>
         <sys_package display_value="GeoData WORK IN PROGRESS" source="x_snc_geodata">f9cb2003dbf6cd10bcced03cd396199e</sys_package>
         <sys_policy/>
         <sys_scope display_value="GeoData WORK IN PROGRESS">f9cb2003dbf6cd10bcced03cd396199e</sys_scope>
         <sys_update_name>sys_script_include_a3bcac43dbf6cd10bcced03cd3961905</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-08-14 15:44:30</sys_updated_on>
+        <sys_updated_on>2024-03-10 11:12:27</sys_updated_on>
     </sys_script_include>
 </record_update>
