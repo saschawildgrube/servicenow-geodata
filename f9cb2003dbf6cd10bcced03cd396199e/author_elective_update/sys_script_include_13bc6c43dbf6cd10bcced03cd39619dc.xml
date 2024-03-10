@@ -26,7 +26,7 @@
     </sys_script_include>
 <sys_update_version action="INSERT_OR_UPDATE">
         <action>DELETE</action>
-        <application display_value="GeoData">f9cb2003dbf6cd10bcced03cd396199e</application>
+        <application display_value="GeoData WORK IN PROGRESS">f9cb2003dbf6cd10bcced03cd396199e</application>
         <file_path/>
         <instance_id>bbdfc83f1ba93910699443f4bd4bcbe7</instance_id>
         <instance_name>wildvancouver</instance_name>
@@ -85,10 +85,10 @@
         <sys_metadata>13bc6c43dbf6cd10bcced03cd39619dc</sys_metadata>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Log</sys_name>
-        <sys_package display_value="GeoData" source="x_snc_geodata">f9cb2003dbf6cd10bcced03cd396199e</sys_package>
+        <sys_package display_value="GeoData WORK IN PROGRESS" source="x_snc_geodata">f9cb2003dbf6cd10bcced03cd396199e</sys_package>
         <sys_parent/>
         <sys_policy/>
-        <sys_scope display_value="GeoData">f9cb2003dbf6cd10bcced03cd396199e</sys_scope>
+        <sys_scope display_value="GeoData WORK IN PROGRESS">f9cb2003dbf6cd10bcced03cd396199e</sys_scope>
         <sys_scope_delete display_value="">4115b8b209934a5e90efa836161a0d24</sys_scope_delete>
         <sys_update_name>sys_script_include_13bc6c43dbf6cd10bcced03cd39619dc</sys_update_name>
         <sys_update_version display_value="sys_script_include_13bc6c43dbf6cd10bcced03cd39619dc">8f7304b51b763d10063ddc61ab4bcb04</sys_update_version>
