@@ -6,7 +6,9 @@
         <caller_access>1</caller_access>
         <client_callable>false</client_callable>
         <description>The DevToolsGetLinkDirectory function is called by the DevTools extension point instance class and returns an extended (or modified) link directory object that serves as the basis for the DevTools Link page.</description>
+        <mobile_callable>false</mobile_callable>
         <name>DevToolsGetLinkDirectory</name>
+        <sandbox_callable>false</sandbox_callable>
         <script><![CDATA[function DevToolsGetLinkDirectory(linkdirectory)
 {
 	linkdirectory['GeoData'] =
@@ -34,5 +36,6 @@
         <sys_update_name>sys_script_include_a3bcac43dbf6cd10bcced03cd3961905</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-03-10 11:12:27</sys_updated_on>
+        <x_snc_devtools_sys_ui_script/>
     </sys_script_include>
 </record_update>

@@ -5,8 +5,19 @@
         <api_name>x_snc_geodata.DevTools</api_name>
         <caller_access>1</caller_access>
         <client_callable>false</client_callable>
-        <description>Implements the extension point for DevTools.</description>
+        <description>Implements the extension point for DevTools.
+|
+Methods:
+* initialize()
+* GetParentRecord()
+* GetLinkDirectory()
+* GetFormatConfig()
+* GetApplicationStatus()
+* RenderDebugDump()
+* GetInstancePipelineName()</description>
+        <mobile_callable>false</mobile_callable>
         <name>DevTools</name>
+        <sandbox_callable>false</sandbox_callable>
         <script><![CDATA[var DevTools = Class.create();
 DevTools.prototype = {
 	initialize: function()
@@ -15,8 +26,8 @@ DevTools.prototype = {
 
 	GetParentRecord: function(grRecord)
 	{
-		var IsValidFunction = x_snc_devtools.IsValidFunction;
-		if (IsValidFunction(x_snc_geodata.DevToolsGetParentRecord))
+		var IsFunction = x_snc_devtools.IsFunction;
+		if (IsFunction(x_snc_geodata.DevToolsGetParentRecord))
 		{
 			return DevToolsGetParentRecord(grRecord);
 		}
@@ -25,8 +36,8 @@ DevTools.prototype = {
 
 	GetLinkDirectory: function(linkdirectory)
 	{
-		var IsValidFunction = x_snc_devtools.IsValidFunction;
-		if (IsValidFunction(x_snc_geodata.DevToolsGetLinkDirectory))
+		var IsFunction = x_snc_devtools.IsFunction;
+		if (IsFunction(x_snc_geodata.DevToolsGetLinkDirectory))
 		{
 			return DevToolsGetLinkDirectory(linkdirectory);
 		}
@@ -35,8 +46,8 @@ DevTools.prototype = {
 
 	GetFormatConfig: function(grRecord)
 	{
-		var IsValidFunction = x_snc_devtools.IsValidFunction;
-		if (IsValidFunction(x_snc_geodata.DevToolsGetFormatConfig))
+		var IsFunction = x_snc_devtools.IsFunction;
+		if (IsFunction(x_snc_geodata.DevToolsGetFormatConfig))
 		{
 			return DevToolsGetFormatConfig(grRecord);
 		}
@@ -45,8 +56,8 @@ DevTools.prototype = {
 	
 	GetApplicationStatus: function(status)
 	{
-		var IsValidFunction = x_snc_devtools.IsValidFunction;
-		if (IsValidFunction(x_snc_geodata.DevToolsGetApplicationStatus))
+		var IsFunction = x_snc_devtools.IsFunction;
+		if (IsFunction(x_snc_geodata.DevToolsGetApplicationStatus))
 		{
 			status = DevToolsGetApplicationStatus(status);
 		}
@@ -55,9 +66,9 @@ DevTools.prototype = {
 
 	RenderDebugDump: function()
 	{
-		var IsValidFunction = x_snc_devtools.IsValidFunction;
+		var IsFunction = x_snc_devtools.IsFunction;
 		var strDebug = '';
-		if (IsValidFunction(x_snc_geodata.DevToolsRenderDebugDump))
+		if (IsFunction(x_snc_geodata.DevToolsRenderDebugDump))
 		{
 			strDebug = x_snc_devtools.GetStringValue(DevToolsRenderDebugDump());
 		}
@@ -66,9 +77,9 @@ DevTools.prototype = {
 	
 	GetInstancePipelineName: function(strInstanceName)
 	{
-		var IsValidFunction = x_snc_devtools.IsValidFunction;
+		var IsFunction = x_snc_devtools.IsFunction;
 		var strInstancePipelineName = '';
-		if (IsValidFunction(x_snc_geodata.DevToolsGetInstancePipelineName))
+		if (IsFunction(x_snc_geodata.DevToolsGetInstancePipelineName))
 		{
 			strInstancePipelineName = x_snc_devtools.GetStringValue(DevToolsGetInstancePipelineName(strInstanceName));
 		}
@@ -82,13 +93,25 @@ DevTools.prototype = {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-04-15 23:32:59</sys_created_on>
         <sys_id>a7bc6c43dbf6cd10bcced03cd39619f8</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>DevTools</sys_name>
         <sys_package display_value="GeoData WORK IN PROGRESS" source="x_snc_geodata">f9cb2003dbf6cd10bcced03cd396199e</sys_package>
         <sys_policy/>
         <sys_scope display_value="GeoData WORK IN PROGRESS">f9cb2003dbf6cd10bcced03cd396199e</sys_scope>
         <sys_update_name>sys_script_include_a7bc6c43dbf6cd10bcced03cd39619f8</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-10 11:10:30</sys_updated_on>
+        <sys_updated_on>2025-08-11 07:48:29</sys_updated_on>
+        <x_snc_devtools_sys_ui_script/>
     </sys_script_include>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>a7bc6c43dbf6cd10bcced03cd39619f8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-11 07:48:29</sys_created_on>
+        <sys_id>68ae49e193d32210959b7fda2bba10d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-11 07:48:29</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>false</use_es_latest>
+    </sys_es_latest_script>
 </record_update>
