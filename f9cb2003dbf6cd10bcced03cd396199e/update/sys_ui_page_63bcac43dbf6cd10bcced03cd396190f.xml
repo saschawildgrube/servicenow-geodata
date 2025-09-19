@@ -16,6 +16,9 @@
 	
 	<p>Welcome to GeoData - created and maintained by&#160;<a href="mailto:sascha.wildgrube@servicenow.com">Sascha Wildgrube</a>.</p>
 
+	<h2>Table of Contents</h2>
+	<g2:no_escape>$[x_snc_devtools.HtmlRenderTableOfContents()]</g2:no_escape>	
+
 	<p>This app was built to help organizing the shipment of medical supplies to the Ukraine during the full-scale invation that started in February 2022.</p>
 	<p>It is dedicated to the people of Ukraine, their resistance and to everyone who invests their time and resources to help.</p> 	
 	
@@ -38,7 +41,7 @@
 	<ul>
 		<g2:no_escape>$[
 			docapi.RenderSystemRequirements(
-				'Vancouver,Washington',
+				'Yokohama,Zurich',
 				true,
 				AppGetDependencies());
 		]</g2:no_escape>	
@@ -64,51 +67,25 @@
 		<!--<li>TODO: Add further steps required for installation...</li>-->
 	</ol>
 	
-	<!--
-	<h2>Reference</h2>
--->
-	<!--
-	<h3>Configuration Options</h3>
-	<g2:no_escape>$[docapi.RenderProperties()]</g2:no_escape>
-	
-	<h2>Roles</h2>
-	<g2:no_escape>$[docapi.RenderRoles()]</g2:no_escape>		
+	<h2>Dependencies</h2>
+	<g2:no_escape>$[docapi.RenderDependencies()]</g2:no_escape>	
 
-	<h3>UI Actions</h3>
-	<g2:no_escape>$[docapi.RenderUIActions()]</g2:no_escape>		
-	-->
-	<!--
-	<h3>Script Includes</h3>
-	<g2:no_escape>$[docapi.RenderScriptIncludes()]</g2:no_escape>
--->	
-<!--
-	<h3>UI Scripts</h3>
-	<g2:no_escape>$[docapi.RenderUIScripts()]</g2:no_escape>	
-	
-	<h3>Test step configurations</h3>
-	<g2:no_escape>$[docapi.RenderTestStepConfigurations()]</g2:no_escape>
-	
-	<h3>Extension Points</h3>
-	<g2:no_escape>$[docapi.RenderExtensionPoints()]</g2:no_escape>		
-
-	<h3>Business Rules</h3>
-	<g2:no_escape>$[docapi.RenderBusinessRules()]</g2:no_escape>	
-	-->
-<!--
-	<g2:no_escape>$[x_snc_devtools.HtmlRenderLinkDirectory(DevToolsGetLinkDirectory({}))]</g2:no_escape>
--->
+	<h2>Technical Debt</h2>
+	<g2:no_escape>$[docapi.RenderTechnicalDebt()]</g2:no_escape>
 
 	<h2>License</h2>
 	<g2:no_escape>$[docapi.RenderCopyright(2022,'Sascha Wildgrube')]</g2:no_escape>
 	<g2:no_escape>$[docapi.RenderLicense()]</g2:no_escape>
 	
-	<h2>Release Notes</h2>
-<!--
-	<h3>1.x.0 - 2024-TODO</h3>
+	<h2 toc-ignore-children="true">Release Notes</h2>
+
+	<h3>1.4.0 - 2025-09-19</h3>
 	<ol>
-		<li>TODO: document changes here</li>
+		<li>DevTools 1.132.0 is now required.</li>
+		<li>Vancouver, Washington are no longer actively supported (Xanadu never was).</li>
+		<li>GeoData is fully tested with Yokohama and Zurich.</li>
+		<li>Added TOC and "Dependencies" and "Technical Debt" chapters to the manual.</li>
 	</ol>
--->
 
 	<h3>1.3.0 - 2024-03-10</h3>
 	<ol>
@@ -155,13 +132,24 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-04-15 23:32:59</sys_created_on>
         <sys_id>63bcac43dbf6cd10bcced03cd396190f</sys_id>
-        <sys_mod_count>37</sys_mod_count>
+        <sys_mod_count>44</sys_mod_count>
         <sys_name>manual</sys_name>
         <sys_package display_value="GeoData" source="x_snc_geodata">f9cb2003dbf6cd10bcced03cd396199e</sys_package>
         <sys_policy/>
         <sys_scope display_value="GeoData">f9cb2003dbf6cd10bcced03cd396199e</sys_scope>
         <sys_update_name>sys_ui_page_63bcac43dbf6cd10bcced03cd396190f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-10 11:29:29</sys_updated_on>
+        <sys_updated_on>2025-09-19 15:15:39</sys_updated_on>
     </sys_ui_page>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>63bcac43dbf6cd10bcced03cd396190f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-21 11:06:40</sys_created_on>
+        <sys_id>30eb557493e76250959b7fda2bba1005</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-21 11:06:40</sys_updated_on>
+        <table>sys_ui_page</table>
+        <use_es_latest>false</use_es_latest>
+    </sys_es_latest_script>
 </record_update>

@@ -8,6 +8,7 @@
         <name>GeoData - Implementation</name>
         <parameters/>
         <remember/>
+        <sn_atf_tg_generated>false</sn_atf_tg_generated>
         <sys_class_name>sys_atf_test</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-04-15 23:33:00</sys_created_on>
@@ -20,6 +21,7 @@
         <sys_update_name>sys_atf_test_f3bcac43dbf6cd10bcced03cd3961920</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-04-15 23:33:00</sys_updated_on>
+        <test_origin/>
     </sys_atf_test>
     <sys_variable_value action="delete_multiple" query="document_key=f3bcac43dbf6cd10bcced03cd3961920"/>
 </record_update>
