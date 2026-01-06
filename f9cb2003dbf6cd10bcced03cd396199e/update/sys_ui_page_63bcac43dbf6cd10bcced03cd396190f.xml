@@ -81,7 +81,7 @@
 
 	<h3>1.5.0 - TODO</h3>
 	<ol>
-		<li>TODO: Document changes here...</li>
+		<li>Bulgaria joined the Eurozone.</li>
 	</ol>
 
 
@@ -144,14 +144,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-04-15 23:32:59</sys_created_on>
         <sys_id>63bcac43dbf6cd10bcced03cd396190f</sys_id>
-        <sys_mod_count>46</sys_mod_count>
+        <sys_mod_count>47</sys_mod_count>
         <sys_name>manual</sys_name>
         <sys_package display_value="GeoData WORK IN PROGRESS" source="x_snc_geodata">f9cb2003dbf6cd10bcced03cd396199e</sys_package>
         <sys_policy/>
         <sys_scope display_value="GeoData WORK IN PROGRESS">f9cb2003dbf6cd10bcced03cd396199e</sys_scope>
         <sys_update_name>sys_ui_page_63bcac43dbf6cd10bcced03cd396190f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-12-09 10:43:01</sys_updated_on>
+        <sys_updated_on>2026-01-06 10:45:41</sys_updated_on>
     </sys_ui_page>
     <sys_es_latest_script action="INSERT_OR_UPDATE">
         <id>63bcac43dbf6cd10bcced03cd396190f</id>
