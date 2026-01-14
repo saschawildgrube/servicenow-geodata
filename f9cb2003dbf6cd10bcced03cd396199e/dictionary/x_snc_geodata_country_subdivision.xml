@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="94b741b73b9ab61062bf612c95e45a9a" label="Country Subdivision" max_length="40" name="x_snc_geodata_country_subdivision" type="collection">
+        <element label="ISO 3166-2 Code" mandatory="true" max_length="3" name="iso_3166_2_code" type="string"/>
+        <element label="Name (EN)" max_length="200" name="name_en" type="string"/>
+        <element display="true" label="Name" mandatory="true" max_length="200" name="name" type="string_full_utf8"/>
+        <element label="Country" mandatory="true" max_length="32" name="country" reference="core_country" type="reference"/>
+        <index name="index">
+            <element name="country"/>
+        </index>
+    </element>
+</database>

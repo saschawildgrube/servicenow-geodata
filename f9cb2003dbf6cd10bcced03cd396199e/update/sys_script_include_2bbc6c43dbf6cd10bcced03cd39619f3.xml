@@ -164,7 +164,6 @@
 	SetCountryNATO('SWE',true);
 	SetCountryNATO('USA',true);
 
-
 	
 	installer.RecordInsertOrUpdate('Set TWN name to "Taiwan".',
 		'core_country',
@@ -182,7 +181,149 @@
 		'core_country',
 		{ iso3166_3: 'MKD' },
 		{},
-		{ name: 'North Macedonia'});			
+		{ name: 'North Macedonia'});		
+
+
+	// Country Subdivisions
+	function CountrySubDivision(strCountryISO3, strSubDivisionCode, strName, strNameEN)
+	{
+		strNameEN = x_snc_devtools.GetStringValue(strNameEN);
+		if (strNameEN == '')
+		{
+			strNameEN = strName;
+		}
+		var grCountry = x_snc_devtools.GetCountryRecord(strCountryISO3);
+		if (x_snc_devtools.IsValidRecord(grCountry) == false)
+		{
+			installer.Error('Country not found by ISO3 code: '+strCountryISO3);
+			return false;
+		}
+		installer.RecordInsertOrUpdate('Adding/Updating subdivision for ' + grCountry.name+': ' + strName,
+			'x_snc_geodata_country_subdivision',
+			{
+				country: grCountry.sys_id,
+				iso_3166_2_code: strSubDivisionCode
+			},
+			{
+				name: strName,
+				name_en: strNameEN
+			},
+			{});		
+
+	}
+
+
+	CountrySubDivision('USA','AL','Alabama');
+	CountrySubDivision('USA','AK','Alaska');
+	CountrySubDivision('USA','AZ','Arizona');
+	CountrySubDivision('USA','AR','Arkansas');
+	CountrySubDivision('USA','CA','California');
+	CountrySubDivision('USA','CO','Colorado');
+	CountrySubDivision('USA','CT','Connecticut');
+	CountrySubDivision('USA','DE','Delaware');
+	CountrySubDivision('USA','FL','Florida');
+	CountrySubDivision('USA','GA','Georgia');
+	CountrySubDivision('USA','HI','Hawaii');
+	CountrySubDivision('USA','ID','Idaho');
+	CountrySubDivision('USA','IL','Illinois');
+	CountrySubDivision('USA','IN','Indiana');
+	CountrySubDivision('USA','IA','Iowa');
+	CountrySubDivision('USA','KS','Kansas');
+	CountrySubDivision('USA','KY','Kentucky');
+	CountrySubDivision('USA','LA','Louisiana');
+	CountrySubDivision('USA','ME','Maine');
+	CountrySubDivision('USA','MD','Maryland');
+	CountrySubDivision('USA','MA','Massachusetts');
+	CountrySubDivision('USA','MI','Michigan');
+	CountrySubDivision('USA','MN','Minnesota');
+	CountrySubDivision('USA','MS','Mississippi');
+	CountrySubDivision('USA','MO','Missouri');
+	CountrySubDivision('USA','MT','Montana');
+	CountrySubDivision('USA','NE','Nebraska');
+	CountrySubDivision('USA','NV','Nevada');
+	CountrySubDivision('USA','NH','New Hampshire');
+	CountrySubDivision('USA','NJ','New Jersey');
+	CountrySubDivision('USA','NM','New Mexico');
+	CountrySubDivision('USA','NY','New York');
+	CountrySubDivision('USA','NC','North Carolina');
+	CountrySubDivision('USA','ND','North Dakota');
+	CountrySubDivision('USA','OH','Ohio');
+	CountrySubDivision('USA','OK','Oklahoma');
+	CountrySubDivision('USA','OR','Oregon');
+	CountrySubDivision('USA','PA','Pennsylvania');
+	CountrySubDivision('USA','RI','Rhode Island');
+	CountrySubDivision('USA','SC','South Carolina');
+	CountrySubDivision('USA','SD','South Dakota');
+	CountrySubDivision('USA','TN','Tennessee');
+	CountrySubDivision('USA','TX','Texas');
+	CountrySubDivision('USA','UT','Utah');
+	CountrySubDivision('USA','VT','Vermont');
+	CountrySubDivision('USA','VA','Virginia');
+	CountrySubDivision('USA','WA','Washington');
+	CountrySubDivision('USA','WV','West Virginia');
+	CountrySubDivision('USA','WI','Wisconsin');
+	CountrySubDivision('USA','WY','Wyoming');
+
+
+	CountrySubDivision('DEU','BW','Baden-Württemberg');
+	CountrySubDivision('DEU','BY','Bayern','Bavaria');
+	CountrySubDivision('DEU','BE','Berlin');
+	CountrySubDivision('DEU','BB','Brandenburg');
+	CountrySubDivision('DEU','HB','Bremen');
+	CountrySubDivision('DEU','HH','Hamburg');
+	CountrySubDivision('DEU','HE','Hessen','Hesse');
+	CountrySubDivision('DEU','MV','Mecklenburg-Vorpommern','Mecklenburg-Western Pomerania');
+	CountrySubDivision('DEU','NI','Niedersachsen','Lower Saxony');
+	CountrySubDivision('DEU','NW','Nordrhein-Westfalen','North Rhine-Westphalia');
+	CountrySubDivision('DEU','RP','Rheinland-Pfalz','Rhineland-Palatinate');
+	CountrySubDivision('DEU','SL','Saarland');
+	CountrySubDivision('DEU','SN','Sachsen','Saxony');
+	CountrySubDivision('DEU','ST','Sachsen-Anhalt','Saxony-Anhalt');
+	CountrySubDivision('DEU','SH','Schleswig-Holstein');
+	CountrySubDivision('DEU','TH','Thüringen','Thuringia');
+
+	CountrySubDivision('FRA','ARA','Auvergne-Rhône-Alpes');
+	CountrySubDivision('FRA','BFC','Bourgogne-Franche-Comté');
+	CountrySubDivision('FRA','BRE','Bretagne','Brittany');
+	CountrySubDivision('FRA','CVL','Centre-Val de Loire');
+	CountrySubDivision('FRA','COR','Corse','Corsica');
+	CountrySubDivision('FRA','GES','Grand Est');
+	CountrySubDivision('FRA','HDF','Hauts-de-France');
+	CountrySubDivision('FRA','IDF','Île-de-France');
+	CountrySubDivision('FRA','NOR','Normandie','Normandy');
+	CountrySubDivision('FRA','NAQ','Nouvelle-Aquitaine');
+	CountrySubDivision('FRA','OCC','Occitanie');
+	CountrySubDivision('FRA','PDL','Pays de la Loire');
+	CountrySubDivision('FRA','PAC',"Provence-Alpes-Côte d'Azur");
+
+	CountrySubDivision('UKR','43','Автономна Республіка Крим','Autonomous Republic of Crimea');
+	CountrySubDivision('UKR','71','Черкаська область','Cherkasy Oblast');
+	CountrySubDivision('UKR','74','Чернігівська область','Chernihiv Oblast');
+	CountrySubDivision('UKR','77','Чернівецька область','Chernivtsi Oblast');
+	CountrySubDivision('UKR','12','Дніпропетровська область','Dnipropetrovsk Oblast');
+	CountrySubDivision('UKR','14','Донецька область','Donetsk Oblast');
+	CountrySubDivision('UKR','26','Івано-Франківська область','Ivano-Frankivsk Oblast');
+	CountrySubDivision('UKR','63','Харківська область','Kharkiv Oblast');
+	CountrySubDivision('UKR','65','Херсонська область','Kherson Oblast');
+	CountrySubDivision('UKR','68','Хмельницька область','Khmelnytskyi Oblast');
+	CountrySubDivision('UKR','35','Кіровоградська область','Kirovohrad Oblast');
+	CountrySubDivision('UKR','32','Київська область','Kyiv Oblast');
+	CountrySubDivision('UKR','09','Луганська область','Luhansk Oblast');
+	CountrySubDivision('UKR','46','Львівська область','Lviv Oblast');
+	CountrySubDivision('UKR','48','Миколаївська область','Mykolaiv Oblast');
+	CountrySubDivision('UKR','51','Одеська область','Odesa Oblast');
+	CountrySubDivision('UKR','53','Полтавська область','Poltava Oblast');
+	CountrySubDivision('UKR','56','Рівненська область','Rivne Oblast');
+	CountrySubDivision('UKR','59','Сумська область','Sumy Oblast');
+	CountrySubDivision('UKR','61','Тернопільська область','Ternopil Oblast');
+	CountrySubDivision('UKR','05','Вінницька область','Vinnytsia Oblast');
+	CountrySubDivision('UKR','07','Волинська область','Volyn Oblast');
+	CountrySubDivision('UKR','21','Закарпатська область','Zakarpattia Oblast');
+	CountrySubDivision('UKR','23','Запорізька область','Zaporizhzhia Oblast');
+	CountrySubDivision('UKR','18','Житомирська область','Zhytomyr Oblast');
+	CountrySubDivision('UKR','30','Київ','Kyiv');
+	CountrySubDivision('UKR','40','Севастополь','Sevastopol');
+
 	
 	return installer.Finish();
 }
@@ -191,14 +332,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-04-15 23:32:59</sys_created_on>
         <sys_id>2bbc6c43dbf6cd10bcced03cd39619f3</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>33</sys_mod_count>
         <sys_name>AppInstall</sys_name>
         <sys_package display_value="GeoData WORK IN PROGRESS" source="x_snc_geodata">f9cb2003dbf6cd10bcced03cd396199e</sys_package>
         <sys_policy/>
         <sys_scope display_value="GeoData WORK IN PROGRESS">f9cb2003dbf6cd10bcced03cd396199e</sys_scope>
         <sys_update_name>sys_script_include_2bbc6c43dbf6cd10bcced03cd39619f3</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-01-06 10:47:13</sys_updated_on>
+        <sys_updated_on>2026-01-14 11:20:40</sys_updated_on>
         <x_snc_devtools_sys_ui_script/>
     </sys_script_include>
 </record_update>
