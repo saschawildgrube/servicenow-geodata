@@ -66,6 +66,19 @@
 		]</g2:no_escape>		
 	</ol>
 	
+	<h2>Reference</h2>
+
+<!--
+	<h3>Configuration Options</h3>
+	<g2:no_escape>$[docapi.RenderProperties()]</g2:no_escape>
+-->
+
+	<h3>Tables</h3>
+	<g2:no_escape>$[docapi.RenderTables()]</g2:no_escape>	
+
+	<h3>Roles</h3>
+	<g2:no_escape>$[docapi.RenderRoles()]</g2:no_escape>		
+
 	<h2>Dependencies</h2>
 	<g2:no_escape>$[docapi.RenderDependencies()]</g2:no_escape>	
 
@@ -82,8 +95,8 @@
 	<ol>
 		<li>Added table for country subdivisions.</li>
 		<li>Added subdivisions for USA, Germany, France and Ukraine.</li>
-		<li>Introduced x_snc_geodata.viewer role to allow read acces to the Country and Country Subdivision tables.</li>
-		<li>Introduced x_snc_geodata.admin role to allow full acces to the Country and Country Subdivision tables.</li>
+		<li>Introduced x_snc_geodata.viewer role to allow read access to the Country and Country Subdivision tables.</li>
+		<li>Introduced x_snc_geodata.admin role to allow full access to the Country and Country Subdivision tables.</li>
 		<li>Added specific GeoData view for countries.</li>
 		<li>Extended link directory.</li>
 	</ol>
@@ -154,14 +167,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-04-15 23:32:59</sys_created_on>
         <sys_id>63bcac43dbf6cd10bcced03cd396190f</sys_id>
-        <sys_mod_count>57</sys_mod_count>
+        <sys_mod_count>59</sys_mod_count>
         <sys_name>manual</sys_name>
         <sys_package display_value="GeoData WORK IN PROGRESS" source="x_snc_geodata">f9cb2003dbf6cd10bcced03cd396199e</sys_package>
         <sys_policy/>
         <sys_scope display_value="GeoData WORK IN PROGRESS">f9cb2003dbf6cd10bcced03cd396199e</sys_scope>
         <sys_update_name>sys_ui_page_63bcac43dbf6cd10bcced03cd396190f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-01-14 12:28:16</sys_updated_on>
+        <sys_updated_on>2026-01-14 12:31:04</sys_updated_on>
     </sys_ui_page>
     <sys_es_latest_script action="INSERT_OR_UPDATE">
         <id>63bcac43dbf6cd10bcced03cd396190f</id>
