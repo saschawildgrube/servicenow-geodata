@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="4ae509733b9ab61062bf612c95e45a57" sys_domain="global" table="core_country" version="3" view="geodata">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-01-14 10:06:58</sys_created_on>
+            <sys_id>ce5685b33b9ab61062bf612c95e45a03</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="core_country" sys_domain="global" view="ea66fccfdbf6cd10bcced03cd396191b">4ae509733b9ab61062bf612c95e45a57</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-01-14 10:06:58</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-01-14 10:06:58</sys_created_on>
+            <sys_id>8a5685b33b9ab61062bf612c95e45a04</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="core_country" sys_domain="global" view="ea66fccfdbf6cd10bcced03cd396191b">4ae509733b9ab61062bf612c95e45a57</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-01-14 10:06:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>iso3166_2</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-01-14 10:06:58</sys_created_on>
+            <sys_id>465685b33b9ab61062bf612c95e45a05</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="core_country" sys_domain="global" view="ea66fccfdbf6cd10bcced03cd396191b">4ae509733b9ab61062bf612c95e45a57</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-01-14 10:06:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>iso3166_3</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-01-14 10:06:58</sys_created_on>
+            <sys_id>025685b33b9ab61062bf612c95e45a06</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="core_country" sys_domain="global" view="ea66fccfdbf6cd10bcced03cd396191b">4ae509733b9ab61062bf612c95e45a57</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-01-14 10:06:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>iana</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-01-14 10:06:58</sys_created_on>
+            <sys_id>ca5685b33b9ab61062bf612c95e45a06</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="core_country" sys_domain="global" view="ea66fccfdbf6cd10bcced03cd396191b">4ae509733b9ab61062bf612c95e45a57</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-01-14 10:06:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>un_numeric</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-01-14 10:06:58</sys_created_on>
+            <sys_id>865685b33b9ab61062bf612c95e45a07</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="core_country" sys_domain="global" view="ea66fccfdbf6cd10bcced03cd396191b">4ae509733b9ab61062bf612c95e45a57</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-01-14 10:06:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-01-14 10:06:58</sys_created_on>
+            <sys_id>425685b33b9ab61062bf612c95e45a08</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="core_country" sys_domain="global" view="ea66fccfdbf6cd10bcced03cd396191b">4ae509733b9ab61062bf612c95e45a57</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-01-14 10:06:58</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_snc_geodata_european_union</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-01-14 10:06:58</sys_created_on>
+            <sys_id>0e5685b33b9ab61062bf612c95e45a08</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="core_country" sys_domain="global" view="ea66fccfdbf6cd10bcced03cd396191b">4ae509733b9ab61062bf612c95e45a57</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-01-14 10:06:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_snc_geodata_eurozone</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-01-14 10:06:58</sys_created_on>
+            <sys_id>c65685b33b9ab61062bf612c95e45a09</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="core_country" sys_domain="global" view="ea66fccfdbf6cd10bcced03cd396191b">4ae509733b9ab61062bf612c95e45a57</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-01-14 10:06:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_snc_geodata_schengen</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-01-14 10:06:58</sys_created_on>
+            <sys_id>825685b33b9ab61062bf612c95e45a0a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="core_country" sys_domain="global" view="ea66fccfdbf6cd10bcced03cd396191b">4ae509733b9ab61062bf612c95e45a57</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-01-14 10:06:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_snc_geodata_nato</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-01-14 10:06:58</sys_created_on>
+            <sys_id>4e5685b33b9ab61062bf612c95e45a0a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="core_country" sys_domain="global" view="ea66fccfdbf6cd10bcced03cd396191b">4ae509733b9ab61062bf612c95e45a57</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-01-14 10:06:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-01-14 10:06:58</sys_created_on>
+            <sys_id>0a5685b33b9ab61062bf612c95e45a0b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="core_country" sys_domain="global" view="ea66fccfdbf6cd10bcced03cd396191b">4ae509733b9ab61062bf612c95e45a57</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-01-14 10:06:58</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>core_country</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-01-14 10:05:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4ae509733b9ab61062bf612c95e45a57</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>core_country</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="GeoData WORK IN PROGRESS" source="x_snc_geodata">f9cb2003dbf6cd10bcced03cd396199e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="GeoData WORK IN PROGRESS">f9cb2003dbf6cd10bcced03cd396199e</sys_scope>
+            <sys_update_name>sys_ui_section_4ae509733b9ab61062bf612c95e45a57</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-01-14 10:05:03</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="GeoData" name="geodata">ea66fccfdbf6cd10bcced03cd396191b</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
