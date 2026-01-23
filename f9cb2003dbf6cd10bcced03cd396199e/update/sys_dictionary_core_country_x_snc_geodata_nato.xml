@@ -53,9 +53,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-04-07 07:56:55</sys_created_on>
         <sys_name>NATO</sys_name>
-        <sys_package display_value="GeoData" source="x_snc_geodata">f9cb2003dbf6cd10bcced03cd396199e</sys_package>
+        <sys_package display_value="GeoData WORK IN PROGRESS" source="x_snc_geodata">f9cb2003dbf6cd10bcced03cd396199e</sys_package>
         <sys_policy/>
-        <sys_scope display_value="GeoData">f9cb2003dbf6cd10bcced03cd396199e</sys_scope>
+        <sys_scope display_value="GeoData WORK IN PROGRESS">f9cb2003dbf6cd10bcced03cd396199e</sys_scope>
         <sys_update_name>sys_dictionary_core_country_x_snc_geodata_nato</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-04-07 07:56:55</sys_updated_on>
