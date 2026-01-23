@@ -16,18 +16,19 @@
 	
 	<p>Welcome to GeoData - created and maintained by&#160;<a href="mailto:sascha.wildgrube@servicenow.com">Sascha Wildgrube</a>.</p>
 
+	<p>This app was built to help organizing the shipment of medical supplies to the Ukraine during the full-scale invation that started in February 2022.</p>
+	<p>It is dedicated to the people of Ukraine, their resistance and to everyone who invests their time and resources to help.</p> 
+
 	<h2>Table of Contents</h2>
 	<g2:no_escape>$[x_snc_devtools.HtmlRenderTableOfContents()]</g2:no_escape>	
 
-	<p>This app was built to help organizing the shipment of medical supplies to the Ukraine during the full-scale invation that started in February 2022.</p>
-	<p>It is dedicated to the people of Ukraine, their resistance and to everyone who invests their time and resources to help.</p> 	
-	
 	<h2>Features</h2> 
 	<ul>
 		<li>Provides information about which country is a member of the European Union</li>
 		<li>Provides information about which country is a member of the Eurozone</li>
 		<li>Provides information about which country is a member of the Schengen agreement</li>
 		<li>Provides information about which country is a member of NATO</li>
+		<li>Installs the "Country Subdivision" table and allows administrators to add country Subdivision data. Subdivisions for Germany, the US, France and Ukraine are prepopulated.</li>
 		<li>Sets the name for "Taiwan".</li>
 		<li>Sets the name for "Türkiye".</li>
 		<li>Sets the name for "North Macedonia".</li>
@@ -63,9 +64,21 @@
 		<g2:no_escape>$[
 			docapi.RenderInstallationInstructionsAppInstall();
 		]</g2:no_escape>		
-		<!--<li>TODO: Add further steps required for installation...</li>-->
 	</ol>
 	
+	<h2>Reference</h2>
+
+<!--
+	<h3>Configuration Options</h3>
+	<g2:no_escape>$[docapi.RenderProperties()]</g2:no_escape>
+-->
+
+	<h3>Tables</h3>
+	<g2:no_escape>$[docapi.RenderTables()]</g2:no_escape>	
+
+	<h3>Roles</h3>
+	<g2:no_escape>$[docapi.RenderRoles()]</g2:no_escape>		
+
 	<h2>Dependencies</h2>
 	<g2:no_escape>$[docapi.RenderDependencies()]</g2:no_escape>	
 
@@ -77,6 +90,20 @@
 	<g2:no_escape>$[docapi.RenderLicense()]</g2:no_escape>
 	
 	<h2 toc-ignore-children="true">Release Notes</h2>
+
+	<h3>1.6.0 - 2026-01-23</h3>
+	<ol>
+		<li>DevTools 1.136.0 is now required.</li>
+		<li>Added table for country subdivisions.</li>
+		<li>Added subdivisions for USA, Germany, France and Ukraine.</li>
+		<li>Introduced x_snc_geodata.viewer role to allow read access to the Country and Country Subdivision tables.</li>
+		<li>Introduced x_snc_geodata.admin role to allow full access to the Country and Country Subdivision tables.</li>
+		<li>Added function GetCountrySubdivisionRecord().</li>
+		<li>Added function GetReferenceQualifierSubdivisionsByCountry().</li>
+		<li>Added specific GeoData view for countries.</li>
+		<li>Extended link directory.</li>
+	</ol>
+
 
 	<h3>1.5.0 - 2026-01-06</h3>
 	<ol>
@@ -143,14 +170,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-04-15 23:32:59</sys_created_on>
         <sys_id>63bcac43dbf6cd10bcced03cd396190f</sys_id>
-        <sys_mod_count>50</sys_mod_count>
+        <sys_mod_count>63</sys_mod_count>
         <sys_name>manual</sys_name>
         <sys_package display_value="GeoData" source="x_snc_geodata">f9cb2003dbf6cd10bcced03cd396199e</sys_package>
         <sys_policy/>
         <sys_scope display_value="GeoData">f9cb2003dbf6cd10bcced03cd396199e</sys_scope>
         <sys_update_name>sys_ui_page_63bcac43dbf6cd10bcced03cd396190f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-01-06 12:02:53</sys_updated_on>
+        <sys_updated_on>2026-01-23 09:41:27</sys_updated_on>
     </sys_ui_page>
     <sys_es_latest_script action="INSERT_OR_UPDATE">
         <id>63bcac43dbf6cd10bcced03cd396190f</id>

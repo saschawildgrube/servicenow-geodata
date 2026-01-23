@@ -14,12 +14,27 @@
 	linkdirectory['GeoData'] =
 	[
 		{
+			title: 'ISO 3166-3',
+			url: 'https://en.wikipedia.org/wiki/ISO_3166-3'
+		},
+		{
+			title: 'ISO 3166-2',
+			url: 'https://en.wikipedia.org/wiki/ISO_3166-2'
+		},
+		{
 			title: 'European Union',
 			url: 'https://en.wikipedia.org/wiki/European_Union'
 		},
 		{
 			title: 'NATO',
 			url: 'https://www.nato.int/cps/en/natohq/nato_countries.htm'
+		},
+		{
+			table: 'core_country',
+			view: 'geodata'
+		},
+		{
+			table: 'x_snc_geodata_country_subdivision',
 		}
 	];
 	return linkdirectory;
@@ -28,14 +43,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-04-15 23:32:59</sys_created_on>
         <sys_id>a3bcac43dbf6cd10bcced03cd3961905</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>DevToolsGetLinkDirectory</sys_name>
         <sys_package display_value="GeoData" source="x_snc_geodata">f9cb2003dbf6cd10bcced03cd396199e</sys_package>
         <sys_policy/>
         <sys_scope display_value="GeoData">f9cb2003dbf6cd10bcced03cd396199e</sys_scope>
         <sys_update_name>sys_script_include_a3bcac43dbf6cd10bcced03cd3961905</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-10 11:12:27</sys_updated_on>
+        <sys_updated_on>2026-01-14 11:07:11</sys_updated_on>
         <x_snc_devtools_sys_ui_script/>
     </sys_script_include>
 </record_update>

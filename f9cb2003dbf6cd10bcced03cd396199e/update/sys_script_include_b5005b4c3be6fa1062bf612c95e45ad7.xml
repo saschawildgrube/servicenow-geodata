@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_snc_geodata.GetCountrySubdivisionRecord</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>Returns a Country Subdivision record based on its ISO code or Sys ID.</description>
+        <mobile_callable>false</mobile_callable>
+        <name>GetCountrySubdivisionRecord</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[function GetCountrySubdivisionRecord(vSubdivision)
+{
+	var GetRecord = x_snc_devtools.GetRecord;
+	var IsValidRecord = x_snc_devtools.IsValidRecord;
+	var GetStringValue = x_snc_devtools.GetStringValue;
+	var GetCountryRecord = x_snc_devtools.GetCountryRecord;
+	var GetValue = x_snc_devtools.GetValue;
+
+
+
+	var grSubdivision = GetRecord('x_snc_geodata_country_subdivision',vSubdivision);
+	if (IsValidRecord(grSubdivision) == true)
+	{
+		return grSubdivision;
+	}
+	var strCode = GetStringValue(vSubdivision);
+	var aCode = strCode.split('-');
+	var strCodeCountry = GetStringValue(GetValue(aCode,0));
+	var strCodeSubdivision = GetStringValue(GetValue(aCode,1));
+
+	if (strCodeCountry != '' && strCodeSubdivision != '')
+	{
+		var grCountry = GetCountryRecord(strCodeCountry);
+		if (IsValidRecord(grCountry) == true)
+		{
+			var grSubdivision = new GlideRecord('x_snc_geodata_country_subdivision');
+			grSubdivision.addQuery('country','=',grCountry.sys_id);
+			grSubdivision.addQuery('iso_3166_2_code','=',strCodeSubdivision);
+			grSubdivision.query();
+			if (grSubdivision.getRowCount() == 1)
+			{
+				grSubdivision.next();
+				return grSubdivision;
+			}
+		}
+	}
+
+	return false;
+
+}]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-15 14:52:53</sys_created_on>
+        <sys_id>b5005b4c3be6fa1062bf612c95e45ad7</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>GetCountrySubdivisionRecord</sys_name>
+        <sys_package display_value="GeoData" source="x_snc_geodata">f9cb2003dbf6cd10bcced03cd396199e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GeoData">f9cb2003dbf6cd10bcced03cd396199e</sys_scope>
+        <sys_update_name>sys_script_include_b5005b4c3be6fa1062bf612c95e45ad7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-23 09:56:52</sys_updated_on>
+        <x_snc_devtools_sys_ui_script/>
+    </sys_script_include>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>b5005b4c3be6fa1062bf612c95e45ad7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-15 14:52:53</sys_created_on>
+        <sys_id>3751db003b2afa1062bf612c95e45ab7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-15 14:52:53</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

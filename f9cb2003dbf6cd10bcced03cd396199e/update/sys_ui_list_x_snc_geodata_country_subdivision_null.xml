@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_snc_geodata_country_subdivision" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>name</element>
+            <list_id display_value="x_snc_geodata_country_subdivision" element="NULL" name="x_snc_geodata_country_subdivision" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c523d9b33b1eb61062bf612c95e45a8f</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-01-14 11:02:53</sys_created_on>
+            <sys_id>8923d9b33b1eb61062bf612c95e45a92</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-01-14 11:02:53</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>country</element>
+            <list_id display_value="x_snc_geodata_country_subdivision" element="NULL" name="x_snc_geodata_country_subdivision" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c523d9b33b1eb61062bf612c95e45a8f</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-01-14 11:02:53</sys_created_on>
+            <sys_id>8923d9b33b1eb61062bf612c95e45a93</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-01-14 11:02:53</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>iso_3166_2_code</element>
+            <list_id display_value="x_snc_geodata_country_subdivision" element="NULL" name="x_snc_geodata_country_subdivision" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c523d9b33b1eb61062bf612c95e45a8f</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-01-14 11:02:53</sys_created_on>
+            <sys_id>0123d9b33b1eb61062bf612c95e45a94</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-01-14 11:02:53</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>name_en</element>
+            <list_id display_value="x_snc_geodata_country_subdivision" element="NULL" name="x_snc_geodata_country_subdivision" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c523d9b33b1eb61062bf612c95e45a8f</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-01-14 11:02:53</sys_created_on>
+            <sys_id>8523d9b33b1eb61062bf612c95e45a94</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-01-14 11:02:53</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_snc_geodata_country_subdivision</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-01-14 11:02:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c523d9b33b1eb61062bf612c95e45a8f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_geodata_country_subdivision</sys_name>
+            <sys_package display_value="GeoData" source="x_snc_geodata">f9cb2003dbf6cd10bcced03cd396199e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="GeoData">f9cb2003dbf6cd10bcced03cd396199e</sys_scope>
+            <sys_update_name>sys_ui_list_x_snc_geodata_country_subdivision_null</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-01-14 11:02:53</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>
