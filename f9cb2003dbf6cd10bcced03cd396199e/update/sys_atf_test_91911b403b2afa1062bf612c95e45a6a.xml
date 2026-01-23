@@ -15,9 +15,9 @@
         <sys_id>91911b403b2afa1062bf612c95e45a6a</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>GeoData - GetCountrySubdivisionRecord</sys_name>
-        <sys_package display_value="GeoData WORK IN PROGRESS" source="x_snc_geodata">f9cb2003dbf6cd10bcced03cd396199e</sys_package>
+        <sys_package display_value="GeoData" source="x_snc_geodata">f9cb2003dbf6cd10bcced03cd396199e</sys_package>
         <sys_policy/>
-        <sys_scope display_value="GeoData WORK IN PROGRESS">f9cb2003dbf6cd10bcced03cd396199e</sys_scope>
+        <sys_scope display_value="GeoData">f9cb2003dbf6cd10bcced03cd396199e</sys_scope>
         <sys_update_name>sys_atf_test_91911b403b2afa1062bf612c95e45a6a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2026-01-15 14:53:48</sys_updated_on>
