@@ -28,7 +28,7 @@
 		<li>Provides information about which country is a member of the Eurozone</li>
 		<li>Provides information about which country is a member of the Schengen agreement</li>
 		<li>Provides information about which country is a member of NATO</li>
-		<li>Installs the "Country Subdivision" table and allows administrators to add country Subdivision data. Subdivisions for Germany, the US, France and Ukraine are prepopulated.</li>
+		<li>Installs the "Country Subdivision" table and allows administrators to add country Subdivision data. Level 1 subdivisions for the USA and all European countries are pre-populated.</li>
 		<li>Sets the name for "Taiwan".</li>
 		<li>Sets the name for "Türkiye".</li>
 		<li>Sets the name for "North Macedonia".</li>
@@ -93,7 +93,7 @@
 
 	<h3>1.7.0 - TODO</h3>
 	<ol>
-		<li>TODO: Document changes here...</li>
+		<li>Added subdivisions for all European countries.</li>
 	</ol>
 
 
@@ -176,14 +176,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-04-15 23:32:59</sys_created_on>
         <sys_id>63bcac43dbf6cd10bcced03cd396190f</sys_id>
-        <sys_mod_count>63</sys_mod_count>
+        <sys_mod_count>65</sys_mod_count>
         <sys_name>manual</sys_name>
         <sys_package display_value="GeoData WORK IN PROGRESS" source="x_snc_geodata">f9cb2003dbf6cd10bcced03cd396199e</sys_package>
         <sys_policy/>
         <sys_scope display_value="GeoData WORK IN PROGRESS">f9cb2003dbf6cd10bcced03cd396199e</sys_scope>
         <sys_update_name>sys_ui_page_63bcac43dbf6cd10bcced03cd396190f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-01-23 09:41:27</sys_updated_on>
+        <sys_updated_on>2026-02-21 15:07:36</sys_updated_on>
     </sys_ui_page>
     <sys_es_latest_script action="INSERT_OR_UPDATE">
         <id>63bcac43dbf6cd10bcced03cd396190f</id>
