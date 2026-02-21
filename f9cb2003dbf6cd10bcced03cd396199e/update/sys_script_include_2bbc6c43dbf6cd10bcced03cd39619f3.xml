@@ -183,6 +183,98 @@
 		{},
 		{ name: 'North Macedonia'});		
 
+	// Country Subdivision Categories
+/*
+  CountrySubDivisionCategory('administration','Administration'),
+  CountrySubDivisionCategory('administrative_atoll','Administrative Atoll'),
+  CountrySubDivisionCategory('administrative_region','Administrative Region'),
+  CountrySubDivisionCategory('administrative_territory','Administrative Territory'),
+  CountrySubDivisionCategory('area','Area'),
+  CountrySubDivisionCategory('arctic_region','Arctic Region'),
+  CountrySubDivisionCategory('autonomous_city','Autonomous City'),
+  CountrySubDivisionCategory('autonomous_community','Autonomous Community'),
+  CountrySubDivisionCategory('autonomous_district','Autonomous District'),
+  CountrySubDivisionCategory('autonomous_municipality','Autonomous Municipality'),
+  CountrySubDivisionCategory('autonomous_province','Autonomous Province'),
+  CountrySubDivisionCategory('autonomous_region','Autonomous Region'),
+  CountrySubDivisionCategory('autonomous_republic','Autonomous Republic'),
+  CountrySubDivisionCategory('autonomous_sector','Autonomous Sector'),
+  CountrySubDivisionCategory('autonomous_territorial_unit','Autonomous Territorial Unit'),
+  CountrySubDivisionCategory('borough','Borough'),
+  CountrySubDivisionCategory('canton','Canton'),
+  CountrySubDivisionCategory('capital_city','Capital City'),
+  CountrySubDivisionCategory('capital_district','Capital District'),
+  CountrySubDivisionCategory('capital_metropolitan_city','Capital Metropolitan City'),
+  CountrySubDivisionCategory('capital_territory','Capital Territory'),
+  CountrySubDivisionCategory('chains_of_islands','Chains (of Islands)'),
+  CountrySubDivisionCategory('city','City'),
+  CountrySubDivisionCategory('city_corporation','City Corporation'),
+  CountrySubDivisionCategory('city_with_county_rights','City with County Rights'),
+  CountrySubDivisionCategory('commune','Commune'),
+  CountrySubDivisionCategory('constitutional_province','Constitutional Province'),
+  CountrySubDivisionCategory('council_area','Council Area'),
+  CountrySubDivisionCategory('country','Country'),
+  CountrySubDivisionCategory('county','County'),
+  CountrySubDivisionCategory('department','Department'),
+  CountrySubDivisionCategory('dependency','Dependency'),
+  CountrySubDivisionCategory('development_region','Development Region'),
+  CountrySubDivisionCategory('district','District'),
+  CountrySubDivisionCategory('division','Division'),
+  CountrySubDivisionCategory('economic_prefecture','Economic Prefecture'),
+  CountrySubDivisionCategory('emirate','Emirate'),
+  CountrySubDivisionCategory('entity','Entity'),
+  CountrySubDivisionCategory('federal_dependency','Federal Dependency'),
+  CountrySubDivisionCategory('federal_district','Federal District'),
+  CountrySubDivisionCategory('federal_territories','Federal Territories'),
+  CountrySubDivisionCategory('geographical_entity','Geographical Entity'),
+  CountrySubDivisionCategory('geographical_region','Geographical Region'),
+  CountrySubDivisionCategory('geographical_unit','Geographical Unit'),
+  CountrySubDivisionCategory('governorate','Governorate'),
+  CountrySubDivisionCategory('indigenous_region','Indigenous Region'),
+  CountrySubDivisionCategory('island','Island'),
+  CountrySubDivisionCategory('island_council','Island Council'),
+  CountrySubDivisionCategory('island_group','Island Group'),
+  CountrySubDivisionCategory('local_council','Local Council'),
+  CountrySubDivisionCategory('london_borough','London Borough'),
+  CountrySubDivisionCategory('metropolitan_cities','Metropolitan Cities'),
+  CountrySubDivisionCategory('metropolitan_department','Metropolitan Department'),
+  CountrySubDivisionCategory('metropolitan_district','Metropolitan District'),
+  CountrySubDivisionCategory('metropolitan_region','Metropolitan Region'),
+  CountrySubDivisionCategory('municipalities','Municipalities'),
+  CountrySubDivisionCategory('municipality','Municipality'),
+  CountrySubDivisionCategory('nation','Nation'),
+  CountrySubDivisionCategory('oblast','Oblast'),
+  CountrySubDivisionCategory('outlying_area','Outlying Area'),
+  CountrySubDivisionCategory('overseas_department','Overseas Department'),
+  CountrySubDivisionCategory('overseas_region','Overseas Region'),
+  CountrySubDivisionCategory('overseas_territorial_collectivity','Overseas Territorial Collectivity'),
+  CountrySubDivisionCategory('parish','Parish'),
+  CountrySubDivisionCategory('popularates','Popularates'),
+  CountrySubDivisionCategory('prefecture','Prefecture'),
+  CountrySubDivisionCategory('province','Province'),
+  CountrySubDivisionCategory('quarter','Quarter'),
+  CountrySubDivisionCategory('rayon','Rayon'),
+  CountrySubDivisionCategory('region','Region'),
+  CountrySubDivisionCategory('regional_council','Regional Council'),
+  CountrySubDivisionCategory('republic','Republic'),
+  CountrySubDivisionCategory('republican_city','Republican City'),
+  CountrySubDivisionCategory('self_governed_part','Self-governed Part'),
+  CountrySubDivisionCategory('special_administrative_region','Special Administrative Region'),
+  CountrySubDivisionCategory('special_city','Special City'),
+  CountrySubDivisionCategory('special_district','Special District'),
+  CountrySubDivisionCategory('special_island_authority','Special Island Authority'),
+  CountrySubDivisionCategory('special_municipality','Special Municipality'),
+  CountrySubDivisionCategory('special_region','Special Region'),
+  CountrySubDivisionCategory('special_zone','Special Zone'),
+  CountrySubDivisionCategory('state','State'),
+  CountrySubDivisionCategory('territorial_unit','Territorial Unit'),
+  CountrySubDivisionCategory('territory','Territory'),
+  CountrySubDivisionCategory('town_council','Town Council'),
+  CountrySubDivisionCategory('two_tier_county','Two-tier County'),
+  CountrySubDivisionCategory('union_territory','Union Territory'),
+  CountrySubDivisionCategory('unitary_authority','Unitary Authority'),
+  CountrySubDivisionCategory('zone','Zone'),
+*/
 
 	// Country Subdivisions
 	function CountrySubDivision(strCountryISO3, strSubDivisionCode, strName, strNameEN)
@@ -208,7 +300,9 @@
 				name: strName,
 				name_en: strNameEN
 			},
-			{});		
+			{
+				level: 1
+			});		
 
 	}
 
@@ -265,50 +359,1247 @@
 	CountrySubDivision('USA','WY','Wyoming');
 
 
-	CountrySubDivision('DEU','BW','Baden-Württemberg');
-	CountrySubDivision('DEU','BY','Bayern','Bavaria');
-	CountrySubDivision('DEU','BE','Berlin');
-	CountrySubDivision('DEU','BB','Brandenburg');
-	CountrySubDivision('DEU','HB','Bremen');
-	CountrySubDivision('DEU','HH','Hamburg');
-	CountrySubDivision('DEU','HE','Hessen','Hesse');
-	CountrySubDivision('DEU','MV','Mecklenburg-Vorpommern','Mecklenburg-Western Pomerania');
-	CountrySubDivision('DEU','NI','Niedersachsen','Lower Saxony');
-	CountrySubDivision('DEU','NW','Nordrhein-Westfalen','North Rhine-Westphalia');
-	CountrySubDivision('DEU','RP','Rheinland-Pfalz','Rhineland-Palatinate');
-	CountrySubDivision('DEU','SL','Saarland');
-	CountrySubDivision('DEU','SN','Sachsen','Saxony');
-	CountrySubDivision('DEU','ST','Sachsen-Anhalt','Saxony-Anhalt');
-	CountrySubDivision('DEU','SH','Schleswig-Holstein');
-	CountrySubDivision('DEU','TH','Thüringen','Thuringia');
+	// ====================================================================
+	// Europe
+	// ====================================================================
 
+	// Albania (ALB)
+	CountrySubDivision('ALB','01','Berat');
+	CountrySubDivision('ALB','02','Durrës');
+	CountrySubDivision('ALB','03','Elbasan');
+	CountrySubDivision('ALB','04','Fier');
+	CountrySubDivision('ALB','05','Gjirokastër');
+	CountrySubDivision('ALB','06','Korçë');
+	CountrySubDivision('ALB','07','Kukës');
+	CountrySubDivision('ALB','08','Lezhë');
+	CountrySubDivision('ALB','09','Dibër');
+	CountrySubDivision('ALB','10','Shkodër');
+	CountrySubDivision('ALB','11','Tiranë');
+	CountrySubDivision('ALB','12','Vlorë');
+
+	// Andorra (AND)
+	CountrySubDivision('AND','02','Canillo');
+	CountrySubDivision('AND','03','Encamp');
+	CountrySubDivision('AND','04','La Massana');
+	CountrySubDivision('AND','05','Ordino');
+	CountrySubDivision('AND','06','Sant Julià de Lòria');
+	CountrySubDivision('AND','07','Andorra la Vella');
+	CountrySubDivision('AND','08','Escaldes-Engordany');
+
+	// Austria (AUT)
+	CountrySubDivision('AUT','1','Burgenland');
+	CountrySubDivision('AUT','2','Kärnten');
+	CountrySubDivision('AUT','3','Niederösterreich');
+	CountrySubDivision('AUT','4','Oberösterreich');
+	CountrySubDivision('AUT','5','Salzburg');
+	CountrySubDivision('AUT','6','Steiermark');
+	CountrySubDivision('AUT','7','Tirol');
+	CountrySubDivision('AUT','8','Vorarlberg');
+	CountrySubDivision('AUT','9','Wien');
+
+	// Belarus (BLR)
+	CountrySubDivision('BLR','BR','Bresckaja voblasć');
+	CountrySubDivision('BLR','HM','Horad Minsk');
+	CountrySubDivision('BLR','HO','Homieĺskaja voblasć');
+	CountrySubDivision('BLR','HR','Hrodzienskaja voblasć');
+	CountrySubDivision('BLR','MA','Mahilioŭskaja voblasć');
+	CountrySubDivision('BLR','MI','Minskaja voblasć');
+	CountrySubDivision('BLR','VI','Viciebskaja voblasć');
+
+	// Belgium (BEL)
+	CountrySubDivision('BEL','BRU','Brussels Hoofdstedelijk Gewest','Bruxelles-Capitale, Région de');
+	CountrySubDivision('BEL','VLG','Vlaams Gewest');
+	CountrySubDivision('BEL','WAL','wallonne, Région');
+
+	// Bosnia and Herzegovina (BIH)
+	CountrySubDivision('BIH','BIH','Federacija Bosne i Hercegovine');
+	CountrySubDivision('BIH','BRC','Brčko distrikt');
+	CountrySubDivision('BIH','SRP','Republika Srpska');
+
+	// Bulgaria (BGR)
+	CountrySubDivision('BGR','01','Blagoevgrad');
+	CountrySubDivision('BGR','02','Burgas');
+	CountrySubDivision('BGR','03','Varna');
+	CountrySubDivision('BGR','04','Veliko Tarnovo');
+	CountrySubDivision('BGR','05','Vidin');
+	CountrySubDivision('BGR','06','Vratsa');
+	CountrySubDivision('BGR','07','Gabrovo');
+	CountrySubDivision('BGR','08','Dobrich');
+	CountrySubDivision('BGR','09','Kardzhali');
+	CountrySubDivision('BGR','10','Kyustendil');
+	CountrySubDivision('BGR','11','Lovech');
+	CountrySubDivision('BGR','12','Montana');
+	CountrySubDivision('BGR','13','Pazardzhik');
+	CountrySubDivision('BGR','14','Pernik');
+	CountrySubDivision('BGR','15','Pleven');
+	CountrySubDivision('BGR','16','Plovdiv');
+	CountrySubDivision('BGR','17','Razgrad');
+	CountrySubDivision('BGR','18','Ruse');
+	CountrySubDivision('BGR','19','Silistra');
+	CountrySubDivision('BGR','20','Sliven');
+	CountrySubDivision('BGR','21','Smolyan');
+	CountrySubDivision('BGR','22','Sofia-Grad');
+	CountrySubDivision('BGR','23','Sofia');
+	CountrySubDivision('BGR','24','Stara Zagora');
+	CountrySubDivision('BGR','25','Targovishte');
+	CountrySubDivision('BGR','26','Haskovo');
+	CountrySubDivision('BGR','27','Shumen');
+	CountrySubDivision('BGR','28','Yambol');
+
+	// Croatia (HRV)
+	CountrySubDivision('HRV','01','Zagrebačka županija');
+	CountrySubDivision('HRV','02','Krapinsko-zagorska županija');
+	CountrySubDivision('HRV','03','Sisačko-moslavačka županija');
+	CountrySubDivision('HRV','04','Karlovačka županija');
+	CountrySubDivision('HRV','05','Varaždinska županija');
+	CountrySubDivision('HRV','06','Koprivničko-križevačka županija');
+	CountrySubDivision('HRV','07','Bjelovarsko-bilogorska županija');
+	CountrySubDivision('HRV','08','Primorsko-goranska županija');
+	CountrySubDivision('HRV','09','Ličko-senjska županija');
+	CountrySubDivision('HRV','10','Virovitičko-podravska županija');
+	CountrySubDivision('HRV','11','Požeško-slavonska županija');
+	CountrySubDivision('HRV','12','Brodsko-posavska županija');
+	CountrySubDivision('HRV','13','Zadarska županija');
+	CountrySubDivision('HRV','14','Osječko-baranjska županija');
+	CountrySubDivision('HRV','15','Šibensko-kninska županija');
+	CountrySubDivision('HRV','16','Vukovarsko-srijemska županija');
+	CountrySubDivision('HRV','17','Splitsko-dalmatinska županija');
+	CountrySubDivision('HRV','18','Istarska županija');
+	CountrySubDivision('HRV','19','Dubrovačko-neretvanska županija');
+	CountrySubDivision('HRV','20','Međimurska županija');
+	CountrySubDivision('HRV','21','Grad Zagreb');
+
+	// Czechia (CZE)
+	CountrySubDivision('CZE','10','Praha, Hlavní mešto');
+	CountrySubDivision('CZE','20','Středočeský kraj');
+	CountrySubDivision('CZE','31','Jihočeský kraj');
+	CountrySubDivision('CZE','32','Plzeňský kraj');
+	CountrySubDivision('CZE','41','Karlovarský kraj');
+	CountrySubDivision('CZE','42','Ústecký kraj');
+	CountrySubDivision('CZE','51','Liberecký kraj');
+	CountrySubDivision('CZE','52','Královéhradecký kraj');
+	CountrySubDivision('CZE','53','Pardubický kraj');
+	CountrySubDivision('CZE','63','Kraj Vysočina');
+	CountrySubDivision('CZE','64','Jihomoravský kraj');
+	CountrySubDivision('CZE','71','Olomoucký kraj');
+	CountrySubDivision('CZE','72','Zlínský kraj');
+	CountrySubDivision('CZE','80','Moravskoslezský kraj');
+
+	// Denmark (DNK)
+	CountrySubDivision('DNK','81','Nordjylland');
+	CountrySubDivision('DNK','82','Midtjylland');
+	CountrySubDivision('DNK','83','Syddanmark');
+	CountrySubDivision('DNK','84','Hovedstaden');
+	CountrySubDivision('DNK','85','Sjælland');
+
+	// Estonia (EST)
+	CountrySubDivision('EST','37','Harjumaa');
+	CountrySubDivision('EST','39','Hiiumaa');
+	CountrySubDivision('EST','44','Ida-Virumaa');
+	CountrySubDivision('EST','49','Jõgevamaa');
+	CountrySubDivision('EST','51','Järvamaa');
+	CountrySubDivision('EST','57','Läänemaa');
+	CountrySubDivision('EST','59','Lääne-Virumaa');
+	CountrySubDivision('EST','65','Põlvamaa');
+	CountrySubDivision('EST','67','Pärnumaa');
+	CountrySubDivision('EST','70','Raplamaa');
+	CountrySubDivision('EST','74','Saaremaa');
+	CountrySubDivision('EST','78','Tartumaa');
+	CountrySubDivision('EST','82','Valgamaa');
+	CountrySubDivision('EST','84','Viljandimaa');
+	CountrySubDivision('EST','86','Võrumaa');
+
+	// Finland (FIN)
+	CountrySubDivision('FIN','01','Ahvenanmaan maakunta');
+	CountrySubDivision('FIN','02','Etelä-Karjala');
+	CountrySubDivision('FIN','03','Etelä-Pohjanmaa');
+	CountrySubDivision('FIN','04','Etelä-Savo');
+	CountrySubDivision('FIN','05','Kainuu');
+	CountrySubDivision('FIN','06','Kanta-Häme');
+	CountrySubDivision('FIN','07','Keski-Pohjanmaa');
+	CountrySubDivision('FIN','08','Keski-Suomi');
+	CountrySubDivision('FIN','09','Kymenlaakso');
+	CountrySubDivision('FIN','10','Lappi');
+	CountrySubDivision('FIN','11','Pirkanmaa');
+	CountrySubDivision('FIN','12','Pohjanmaa');
+	CountrySubDivision('FIN','13','Pohjois-Karjala');
+	CountrySubDivision('FIN','14','Pohjois-Pohjanmaa');
+	CountrySubDivision('FIN','15','Pohjois-Savo');
+	CountrySubDivision('FIN','16','Päijät-Häme');
+	CountrySubDivision('FIN','17','Satakunta');
+	CountrySubDivision('FIN','18','Uusimaa');
+	CountrySubDivision('FIN','19','Varsinais-Suomi');
+
+	// France (FRA)
 	CountrySubDivision('FRA','ARA','Auvergne-Rhône-Alpes');
 	CountrySubDivision('FRA','BFC','Bourgogne-Franche-Comté');
-	CountrySubDivision('FRA','BRE','Bretagne','Brittany');
+	CountrySubDivision('FRA','BRE','Bretagne');
+	CountrySubDivision('FRA','COR','Corse');
+	CountrySubDivision('FRA','CP','Clipperton');
 	CountrySubDivision('FRA','CVL','Centre-Val de Loire');
-	CountrySubDivision('FRA','COR','Corse','Corsica');
-	CountrySubDivision('FRA','GES','Grand Est');
+	CountrySubDivision('FRA','GES','Grand-Est');
 	CountrySubDivision('FRA','HDF','Hauts-de-France');
 	CountrySubDivision('FRA','IDF','Île-de-France');
-	CountrySubDivision('FRA','NOR','Normandie','Normandy');
 	CountrySubDivision('FRA','NAQ','Nouvelle-Aquitaine');
+	CountrySubDivision('FRA','NOR','Normandie');
 	CountrySubDivision('FRA','OCC','Occitanie');
-	CountrySubDivision('FRA','PDL','Pays de la Loire');
-	CountrySubDivision('FRA','PAC',"Provence-Alpes-Côte d'Azur");
+	CountrySubDivision('FRA','PAC','Provence-Alpes-Côte-d’Azur');
+	CountrySubDivision('FRA','PDL','Pays-de-la-Loire');
 
-	CountrySubDivision('UKR','43','Автономна Республіка Крим','Autonomous Republic of Crimea');
-	CountrySubDivision('UKR','71','Черкаська область','Cherkasy Oblast');
-	CountrySubDivision('UKR','74','Чернігівська область','Chernihiv Oblast');
-	CountrySubDivision('UKR','77','Чернівецька область','Chernivtsi Oblast');
+	// Germany (DEU)
+	CountrySubDivision('DEU','BB','Brandenburg');
+	CountrySubDivision('DEU','BE','Berlin');
+	CountrySubDivision('DEU','BW','Baden-Württemberg');
+	CountrySubDivision('DEU','BY','Bayern');
+	CountrySubDivision('DEU','HB','Bremen');
+	CountrySubDivision('DEU','HE','Hessen');
+	CountrySubDivision('DEU','HH','Hamburg');
+	CountrySubDivision('DEU','MV','Mecklenburg-Vorpommern');
+	CountrySubDivision('DEU','NI','Niedersachsen');
+	CountrySubDivision('DEU','NW','Nordrhein-Westfalen');
+	CountrySubDivision('DEU','RP','Rheinland-Pfalz');
+	CountrySubDivision('DEU','SH','Schleswig-Holstein');
+	CountrySubDivision('DEU','SL','Saarland');
+	CountrySubDivision('DEU','SN','Sachsen');
+	CountrySubDivision('DEU','ST','Sachsen-Anhalt');
+	CountrySubDivision('DEU','TH','Thüringen');
+
+	// Greece (GRC)
+	CountrySubDivision('GRC','69','Agio Oros');
+	CountrySubDivision('GRC','A','Anatoliki Makedonia kai Thraki');
+	CountrySubDivision('GRC','B','Kentriki Makedonia');
+	CountrySubDivision('GRC','C','Dytiki Makedonia');
+	CountrySubDivision('GRC','D','Ipeiros');
+	CountrySubDivision('GRC','E','Thessalia');
+	CountrySubDivision('GRC','F','Ionia Nisia');
+	CountrySubDivision('GRC','G','Dytiki Ellada');
+	CountrySubDivision('GRC','H','Sterea Ellada');
+	CountrySubDivision('GRC','I','Attiki');
+	CountrySubDivision('GRC','J','Peloponnisos');
+	CountrySubDivision('GRC','K','Voreio Aigaio');
+	CountrySubDivision('GRC','L','Notio Aigaio');
+	CountrySubDivision('GRC','M','Kriti');
+
+	// Hungary (HUN)
+	CountrySubDivision('HUN','BA','Baranya');
+	CountrySubDivision('HUN','BC','Békéscsaba');
+	CountrySubDivision('HUN','BE','Békés');
+	CountrySubDivision('HUN','BK','Bács-Kiskun');
+	CountrySubDivision('HUN','BU','Budapest');
+	CountrySubDivision('HUN','BZ','Borsod-Abaúj-Zemplén');
+	CountrySubDivision('HUN','CS','Csongrád');
+	CountrySubDivision('HUN','DE','Debrecen');
+	CountrySubDivision('HUN','DU','Dunaújváros');
+	CountrySubDivision('HUN','EG','Eger');
+	CountrySubDivision('HUN','ER','Érd');
+	CountrySubDivision('HUN','FE','Fejér');
+	CountrySubDivision('HUN','GS','Győr-Moson-Sopron');
+	CountrySubDivision('HUN','GY','Győr');
+	CountrySubDivision('HUN','HB','Hajdú-Bihar');
+	CountrySubDivision('HUN','HE','Heves');
+	CountrySubDivision('HUN','HV','Hódmezővásárhely');
+	CountrySubDivision('HUN','JN','Jász-Nagykun-Szolnok');
+	CountrySubDivision('HUN','KE','Komárom-Esztergom');
+	CountrySubDivision('HUN','KM','Kecskemét');
+	CountrySubDivision('HUN','KV','Kaposvár');
+	CountrySubDivision('HUN','MI','Miskolc');
+	CountrySubDivision('HUN','NK','Nagykanizsa');
+	CountrySubDivision('HUN','NO','Nógrád');
+	CountrySubDivision('HUN','NY','Nyíregyháza');
+	CountrySubDivision('HUN','PE','Pest');
+	CountrySubDivision('HUN','PS','Pécs');
+	CountrySubDivision('HUN','SD','Szeged');
+	CountrySubDivision('HUN','SF','Székesfehérvár');
+	CountrySubDivision('HUN','SH','Szombathely');
+	CountrySubDivision('HUN','SK','Szolnok');
+	CountrySubDivision('HUN','SN','Sopron');
+	CountrySubDivision('HUN','SO','Somogy');
+	CountrySubDivision('HUN','SS','Szekszárd');
+	CountrySubDivision('HUN','ST','Salgótarján');
+	CountrySubDivision('HUN','SZ','Szabolcs-Szatmár-Bereg');
+	CountrySubDivision('HUN','TB','Tatabánya');
+	CountrySubDivision('HUN','TO','Tolna');
+	CountrySubDivision('HUN','VA','Vas');
+	CountrySubDivision('HUN','VE','Veszprém (county)');
+	CountrySubDivision('HUN','VM','Veszprém');
+	CountrySubDivision('HUN','ZA','Zala');
+	CountrySubDivision('HUN','ZE','Zalaegerszeg');
+
+	// Iceland (ISL)
+	CountrySubDivision('ISL','0','Reykjavík');
+	CountrySubDivision('ISL','1','Höfuðborgarsvæðið');
+	CountrySubDivision('ISL','2','Suðurnes');
+	CountrySubDivision('ISL','3','Vesturland');
+	CountrySubDivision('ISL','4','Vestfirðir');
+	CountrySubDivision('ISL','5','Norðurland vestra');
+	CountrySubDivision('ISL','6','Norðurland eystra');
+	CountrySubDivision('ISL','7','Austurland');
+	CountrySubDivision('ISL','8','Suðurland');
+
+	// Ireland (IRL)
+	CountrySubDivision('IRL','C','Connacht');
+	CountrySubDivision('IRL','L','Leinster');
+	CountrySubDivision('IRL','M','Munster');
+	CountrySubDivision('IRL','U','Ulster');
+
+	// Italy (ITA)
+	CountrySubDivision('ITA','21','Piemonte');
+	CountrySubDivision('ITA','23','Valle d\'Aosta');
+	CountrySubDivision('ITA','25','Lombardia');
+	CountrySubDivision('ITA','32','Trentino-Alto Adige');
+	CountrySubDivision('ITA','34','Veneto');
+	CountrySubDivision('ITA','36','Friuli-Venezia Giulia');
+	CountrySubDivision('ITA','42','Liguria');
+	CountrySubDivision('ITA','45','Emilia-Romagna');
+	CountrySubDivision('ITA','52','Toscana');
+	CountrySubDivision('ITA','55','Umbria');
+	CountrySubDivision('ITA','57','Marche');
+	CountrySubDivision('ITA','62','Lazio');
+	CountrySubDivision('ITA','65','Abruzzo');
+	CountrySubDivision('ITA','67','Molise');
+	CountrySubDivision('ITA','72','Campania');
+	CountrySubDivision('ITA','75','Puglia');
+	CountrySubDivision('ITA','77','Basilicata');
+	CountrySubDivision('ITA','78','Calabria');
+	CountrySubDivision('ITA','82','Sicilia');
+	CountrySubDivision('ITA','88','Sardegna');
+
+	// Latvia (LVA)
+	CountrySubDivision('LVA','001','Aglonas novads');
+	CountrySubDivision('LVA','002','Aizkraukles novads');
+	CountrySubDivision('LVA','003','Aizputes novads');
+	CountrySubDivision('LVA','004','Aknīstes novads');
+	CountrySubDivision('LVA','005','Alojas novads');
+	CountrySubDivision('LVA','006','Alsungas novads');
+	CountrySubDivision('LVA','007','Alūksnes novads');
+	CountrySubDivision('LVA','008','Amatas novads');
+	CountrySubDivision('LVA','009','Apes novads');
+	CountrySubDivision('LVA','010','Auces novads');
+	CountrySubDivision('LVA','011','Ādažu novads');
+	CountrySubDivision('LVA','012','Babītes novads');
+	CountrySubDivision('LVA','013','Baldones novads');
+	CountrySubDivision('LVA','014','Baltinavas novads');
+	CountrySubDivision('LVA','015','Balvu novads');
+	CountrySubDivision('LVA','016','Bauskas novads');
+	CountrySubDivision('LVA','017','Beverīnas novads');
+	CountrySubDivision('LVA','018','Brocēnu novads');
+	CountrySubDivision('LVA','019','Burtnieku novads');
+	CountrySubDivision('LVA','020','Carnikavas novads');
+	CountrySubDivision('LVA','021','Cesvaines novads');
+	CountrySubDivision('LVA','022','Cēsu novads');
+	CountrySubDivision('LVA','023','Ciblas novads');
+	CountrySubDivision('LVA','024','Dagdas novads');
+	CountrySubDivision('LVA','025','Daugavpils novads');
+	CountrySubDivision('LVA','026','Dobeles novads');
+	CountrySubDivision('LVA','027','Dundagas novads');
+	CountrySubDivision('LVA','028','Durbes novads');
+	CountrySubDivision('LVA','029','Engures novads');
+	CountrySubDivision('LVA','030','Ērgļu novads');
+	CountrySubDivision('LVA','031','Garkalnes novads');
+	CountrySubDivision('LVA','032','Grobiņas novads');
+	CountrySubDivision('LVA','033','Gulbenes novads');
+	CountrySubDivision('LVA','034','Iecavas novads');
+	CountrySubDivision('LVA','035','Ikšķiles novads');
+	CountrySubDivision('LVA','036','Ilūkstes novads');
+	CountrySubDivision('LVA','037','Inčukalna novads');
+	CountrySubDivision('LVA','038','Jaunjelgavas novads');
+	CountrySubDivision('LVA','039','Jaunpiebalgas novads');
+	CountrySubDivision('LVA','040','Jaunpils novads');
+	CountrySubDivision('LVA','041','Jelgavas novads');
+	CountrySubDivision('LVA','042','Jēkabpils novads');
+	CountrySubDivision('LVA','043','Kandavas novads');
+	CountrySubDivision('LVA','044','Kārsavas novads');
+	CountrySubDivision('LVA','045','Kocēnu novads');
+	CountrySubDivision('LVA','046','Kokneses novads');
+	CountrySubDivision('LVA','047','Krāslavas novads');
+	CountrySubDivision('LVA','048','Krimuldas novads');
+	CountrySubDivision('LVA','049','Krustpils novads');
+	CountrySubDivision('LVA','050','Kuldīgas novads');
+	CountrySubDivision('LVA','051','Ķeguma novads');
+	CountrySubDivision('LVA','052','Ķekavas novads');
+	CountrySubDivision('LVA','053','Lielvārdes novads');
+	CountrySubDivision('LVA','054','Limbažu novads');
+	CountrySubDivision('LVA','055','Līgatnes novads');
+	CountrySubDivision('LVA','056','Līvānu novads');
+	CountrySubDivision('LVA','057','Lubānas novads');
+	CountrySubDivision('LVA','058','Ludzas novads');
+	CountrySubDivision('LVA','059','Madonas novads');
+	CountrySubDivision('LVA','060','Mazsalacas novads');
+	CountrySubDivision('LVA','061','Mālpils novads');
+	CountrySubDivision('LVA','062','Mārupes novads');
+	CountrySubDivision('LVA','063','Mērsraga novads');
+	CountrySubDivision('LVA','064','Naukšēnu novads');
+	CountrySubDivision('LVA','065','Neretas novads');
+	CountrySubDivision('LVA','066','Nīcas novads');
+	CountrySubDivision('LVA','067','Ogres novads');
+	CountrySubDivision('LVA','068','Olaines novads');
+	CountrySubDivision('LVA','069','Ozolnieku novads');
+	CountrySubDivision('LVA','070','Pārgaujas novads');
+	CountrySubDivision('LVA','071','Pāvilostas novads');
+	CountrySubDivision('LVA','072','Pļaviņu novads');
+	CountrySubDivision('LVA','073','Preiļu novads');
+	CountrySubDivision('LVA','074','Priekules novads');
+	CountrySubDivision('LVA','075','Priekuļu novads');
+	CountrySubDivision('LVA','076','Raunas novads');
+	CountrySubDivision('LVA','077','Rēzeknes novads');
+	CountrySubDivision('LVA','078','Riebiņu novads');
+	CountrySubDivision('LVA','079','Rojas novads');
+	CountrySubDivision('LVA','080','Ropažu novads');
+	CountrySubDivision('LVA','081','Rucavas novads');
+	CountrySubDivision('LVA','082','Rugāju novads');
+	CountrySubDivision('LVA','083','Rundāles novads');
+	CountrySubDivision('LVA','084','Rūjienas novads');
+	CountrySubDivision('LVA','085','Salas novads');
+	CountrySubDivision('LVA','086','Salacgrīvas novads');
+	CountrySubDivision('LVA','087','Salaspils novads');
+	CountrySubDivision('LVA','088','Saldus novads');
+	CountrySubDivision('LVA','089','Saulkrastu novads');
+	CountrySubDivision('LVA','090','Sējas novads');
+	CountrySubDivision('LVA','091','Siguldas novads');
+	CountrySubDivision('LVA','092','Skrīveru novads');
+	CountrySubDivision('LVA','093','Skrundas novads');
+	CountrySubDivision('LVA','094','Smiltenes novads');
+	CountrySubDivision('LVA','095','Stopiņu novads');
+	CountrySubDivision('LVA','096','Strenču novads');
+	CountrySubDivision('LVA','097','Talsu novads');
+	CountrySubDivision('LVA','098','Tērvetes novads');
+	CountrySubDivision('LVA','099','Tukuma novads');
+	CountrySubDivision('LVA','100','Vaiņodes novads');
+	CountrySubDivision('LVA','101','Valkas novads');
+	CountrySubDivision('LVA','102','Varakļānu novads');
+	CountrySubDivision('LVA','103','Vārkavas novads');
+	CountrySubDivision('LVA','104','Vecpiebalgas novads');
+	CountrySubDivision('LVA','105','Vecumnieku novads');
+	CountrySubDivision('LVA','106','Ventspils novads');
+	CountrySubDivision('LVA','107','Viesītes novads');
+	CountrySubDivision('LVA','108','Viļakas novads');
+	CountrySubDivision('LVA','109','Viļānu novads');
+	CountrySubDivision('LVA','110','Zilupes novads');
+	CountrySubDivision('LVA','DGV','Daugavpils');
+	CountrySubDivision('LVA','JEL','Jelgava');
+	CountrySubDivision('LVA','JKB','Jēkabpils');
+	CountrySubDivision('LVA','JUR','Jūrmala');
+	CountrySubDivision('LVA','LPX','Liepāja');
+	CountrySubDivision('LVA','REZ','Rēzekne');
+	CountrySubDivision('LVA','RIX','Rīga');
+	CountrySubDivision('LVA','VEN','Ventspils');
+	CountrySubDivision('LVA','VMR','Valmiera');
+
+	// Liechtenstein (LIE)
+	CountrySubDivision('LIE','01','Balzers');
+	CountrySubDivision('LIE','02','Eschen');
+	CountrySubDivision('LIE','03','Gamprin');
+	CountrySubDivision('LIE','04','Mauren');
+	CountrySubDivision('LIE','05','Planken');
+	CountrySubDivision('LIE','06','Ruggell');
+	CountrySubDivision('LIE','07','Schaan');
+	CountrySubDivision('LIE','08','Schellenberg');
+	CountrySubDivision('LIE','09','Triesen');
+	CountrySubDivision('LIE','10','Triesenberg');
+	CountrySubDivision('LIE','11','Vaduz');
+
+	// Lithuania (LTU)
+	CountrySubDivision('LTU','AL','Alytaus Apskritis');
+	CountrySubDivision('LTU','KL','Klaipėdos Apskritis');
+	CountrySubDivision('LTU','KU','Kauno Apskritis');
+	CountrySubDivision('LTU','MR','Marijampolės Apskritis');
+	CountrySubDivision('LTU','PN','Panevėžio Apskritis');
+	CountrySubDivision('LTU','SA','Šiaulių Apskritis');
+	CountrySubDivision('LTU','TA','Tauragés Apskritis');
+	CountrySubDivision('LTU','TE','Telšių Apskritis');
+	CountrySubDivision('LTU','UT','Utenos Apskritis');
+	CountrySubDivision('LTU','VL','Vilniaus Apskritis');
+
+	// Luxembourg (LUX)
+	CountrySubDivision('LUX','D','Diekirch');
+	CountrySubDivision('LUX','G','Grevenmacher');
+	CountrySubDivision('LUX','L','Luxembourg');
+
+	// Malta (MLT)
+	CountrySubDivision('MLT','01','Attard');
+	CountrySubDivision('MLT','02','Balzan');
+	CountrySubDivision('MLT','03','Birgu');
+	CountrySubDivision('MLT','04','Birkirkara');
+	CountrySubDivision('MLT','05','Birżebbuġa');
+	CountrySubDivision('MLT','06','Bormla');
+	CountrySubDivision('MLT','07','Dingli');
+	CountrySubDivision('MLT','08','Fgura');
+	CountrySubDivision('MLT','09','Floriana');
+	CountrySubDivision('MLT','10','Fontana');
+	CountrySubDivision('MLT','11','Gudja');
+	CountrySubDivision('MLT','12','Gżira');
+	CountrySubDivision('MLT','13','Għajnsielem');
+	CountrySubDivision('MLT','14','Għarb');
+	CountrySubDivision('MLT','15','Għargħur');
+	CountrySubDivision('MLT','16','Għasri');
+	CountrySubDivision('MLT','17','Għaxaq');
+	CountrySubDivision('MLT','18','Ħamrun');
+	CountrySubDivision('MLT','19','Iklin');
+	CountrySubDivision('MLT','20','Isla');
+	CountrySubDivision('MLT','21','Kalkara');
+	CountrySubDivision('MLT','22','Kerċem');
+	CountrySubDivision('MLT','23','Kirkop');
+	CountrySubDivision('MLT','24','Lija');
+	CountrySubDivision('MLT','25','Luqa');
+	CountrySubDivision('MLT','26','Marsa');
+	CountrySubDivision('MLT','27','Marsaskala');
+	CountrySubDivision('MLT','28','Marsaxlokk');
+	CountrySubDivision('MLT','29','Mdina');
+	CountrySubDivision('MLT','30','Mellieħa');
+	CountrySubDivision('MLT','31','Mġarr');
+	CountrySubDivision('MLT','32','Mosta');
+	CountrySubDivision('MLT','33','Mqabba');
+	CountrySubDivision('MLT','34','Msida');
+	CountrySubDivision('MLT','35','Mtarfa');
+	CountrySubDivision('MLT','36','Munxar');
+	CountrySubDivision('MLT','37','Nadur');
+	CountrySubDivision('MLT','38','Naxxar');
+	CountrySubDivision('MLT','39','Paola');
+	CountrySubDivision('MLT','40','Pembroke');
+	CountrySubDivision('MLT','41','Pietà');
+	CountrySubDivision('MLT','42','Qala');
+	CountrySubDivision('MLT','43','Qormi');
+	CountrySubDivision('MLT','44','Qrendi');
+	CountrySubDivision('MLT','45','Rabat Għawdex');
+	CountrySubDivision('MLT','46','Rabat Malta');
+	CountrySubDivision('MLT','47','Safi');
+	CountrySubDivision('MLT','48','San Ġiljan');
+	CountrySubDivision('MLT','49','San Ġwann');
+	CountrySubDivision('MLT','50','San Lawrenz');
+	CountrySubDivision('MLT','51','San Pawl il-Baħar');
+	CountrySubDivision('MLT','52','Sannat');
+	CountrySubDivision('MLT','53','Santa Luċija');
+	CountrySubDivision('MLT','54','Santa Venera');
+	CountrySubDivision('MLT','55','Siġġiewi');
+	CountrySubDivision('MLT','56','Sliema');
+	CountrySubDivision('MLT','57','Swieqi');
+	CountrySubDivision('MLT','58','Ta’ Xbiex');
+	CountrySubDivision('MLT','59','Tarxien');
+	CountrySubDivision('MLT','60','Valletta');
+	CountrySubDivision('MLT','61','Xagħra');
+	CountrySubDivision('MLT','62','Xewkija');
+	CountrySubDivision('MLT','63','Xgħajra');
+	CountrySubDivision('MLT','64','Żabbar');
+	CountrySubDivision('MLT','65','Żebbuġ Għawdex');
+	CountrySubDivision('MLT','66','Żebbuġ Malta');
+	CountrySubDivision('MLT','67','Żejtun');
+	CountrySubDivision('MLT','68','Żurrieq');
+
+	// Moldova, Republic of (MDA)
+	CountrySubDivision('MDA','AN','Anenii Noi');
+	CountrySubDivision('MDA','BA','Bălți');
+	CountrySubDivision('MDA','BD','Tighina');
+	CountrySubDivision('MDA','BR','Briceni');
+	CountrySubDivision('MDA','BS','Basarabeasca');
+	CountrySubDivision('MDA','CA','Cahul');
+	CountrySubDivision('MDA','CL','Călărași');
+	CountrySubDivision('MDA','CM','Cimișlia');
+	CountrySubDivision('MDA','CR','Criuleni');
+	CountrySubDivision('MDA','CS','Căușeni');
+	CountrySubDivision('MDA','CT','Cantemir');
+	CountrySubDivision('MDA','CU','Chișinău');
+	CountrySubDivision('MDA','DO','Dondușeni');
+	CountrySubDivision('MDA','DR','Drochia');
+	CountrySubDivision('MDA','DU','Dubăsari');
+	CountrySubDivision('MDA','ED','Edineț');
+	CountrySubDivision('MDA','FA','Fălești');
+	CountrySubDivision('MDA','FL','Florești');
+	CountrySubDivision('MDA','GA','Găgăuzia, Unitatea teritorială autonomă');
+	CountrySubDivision('MDA','GL','Glodeni');
+	CountrySubDivision('MDA','HI','Hîncești');
+	CountrySubDivision('MDA','IA','Ialoveni');
+	CountrySubDivision('MDA','LE','Leova');
+	CountrySubDivision('MDA','NI','Nisporeni');
+	CountrySubDivision('MDA','OC','Ocnița');
+	CountrySubDivision('MDA','OR','Orhei');
+	CountrySubDivision('MDA','RE','Rezina');
+	CountrySubDivision('MDA','RI','Rîșcani');
+	CountrySubDivision('MDA','SD','Șoldănești');
+	CountrySubDivision('MDA','SI','Sîngerei');
+	CountrySubDivision('MDA','SN','Stînga Nistrului, unitatea teritorială din');
+	CountrySubDivision('MDA','SO','Soroca');
+	CountrySubDivision('MDA','ST','Strășeni');
+	CountrySubDivision('MDA','SV','Ștefan Vodă');
+	CountrySubDivision('MDA','TA','Taraclia');
+	CountrySubDivision('MDA','TE','Telenești');
+	CountrySubDivision('MDA','UN','Ungheni');
+
+	// Monaco (MCO)
+	CountrySubDivision('MCO','CL','La Colle');
+	CountrySubDivision('MCO','CO','La Condamine');
+	CountrySubDivision('MCO','FO','Fontvieille');
+	CountrySubDivision('MCO','GA','La Gare');
+	CountrySubDivision('MCO','JE','Jardin Exotique');
+	CountrySubDivision('MCO','LA','Larvotto');
+	CountrySubDivision('MCO','MA','Malbousquet');
+	CountrySubDivision('MCO','MC','Monte-Carlo');
+	CountrySubDivision('MCO','MG','Moneghetti');
+	CountrySubDivision('MCO','MO','Monaco-Ville');
+	CountrySubDivision('MCO','MU','Moulins');
+	CountrySubDivision('MCO','PH','Port-Hercule');
+	CountrySubDivision('MCO','SD','Sainte-Dévote');
+	CountrySubDivision('MCO','SO','La Source');
+	CountrySubDivision('MCO','SP','Spélugues');
+	CountrySubDivision('MCO','SR','Saint-Roman');
+	CountrySubDivision('MCO','VR','Vallon de la Rousse');
+
+	// Montenegro (MNE)
+	CountrySubDivision('MNE','01','Andrijevica');
+	CountrySubDivision('MNE','02','Bar');
+	CountrySubDivision('MNE','03','Berane');
+	CountrySubDivision('MNE','04','Bijelo Polje');
+	CountrySubDivision('MNE','05','Budva');
+	CountrySubDivision('MNE','06','Cetinje');
+	CountrySubDivision('MNE','07','Danilovgrad');
+	CountrySubDivision('MNE','08','Herceg-Novi');
+	CountrySubDivision('MNE','09','Kolašin');
+	CountrySubDivision('MNE','10','Kotor');
+	CountrySubDivision('MNE','11','Mojkovac');
+	CountrySubDivision('MNE','12','Nikšić');
+	CountrySubDivision('MNE','13','Plav');
+	CountrySubDivision('MNE','14','Pljevlja');
+	CountrySubDivision('MNE','15','Plužine');
+	CountrySubDivision('MNE','16','Podgorica');
+	CountrySubDivision('MNE','17','Rožaje');
+	CountrySubDivision('MNE','18','Šavnik');
+	CountrySubDivision('MNE','19','Tivat');
+	CountrySubDivision('MNE','20','Ulcinj');
+	CountrySubDivision('MNE','21','Žabljak');
+
+	// Netherlands (NLD)
+	CountrySubDivision('NLD','BQ1','Bonaire');
+	CountrySubDivision('NLD','BQ2','Saba');
+	CountrySubDivision('NLD','BQ3','Sint Eustatius');
+	CountrySubDivision('NLD','DR','Drenthe');
+	CountrySubDivision('NLD','FL','Flevoland');
+	CountrySubDivision('NLD','FR','Friesland');
+	CountrySubDivision('NLD','GE','Gelderland');
+	CountrySubDivision('NLD','GR','Groningen');
+	CountrySubDivision('NLD','LI','Limburg');
+	CountrySubDivision('NLD','NB','Noord-Brabant');
+	CountrySubDivision('NLD','NH','Noord-Holland');
+	CountrySubDivision('NLD','OV','Overijssel');
+	CountrySubDivision('NLD','UT','Utrecht');
+	CountrySubDivision('NLD','ZE','Zeeland');
+	CountrySubDivision('NLD','ZH','Zuid-Holland');
+
+	// North Macedonia (MKD)
+	CountrySubDivision('MKD','01','Aerodrom');
+	CountrySubDivision('MKD','02','Aračinovo');
+	CountrySubDivision('MKD','03','Berovo');
+	CountrySubDivision('MKD','04','Bitola');
+	CountrySubDivision('MKD','05','Bogdanci');
+	CountrySubDivision('MKD','06','Bogovinje');
+	CountrySubDivision('MKD','07','Bosilovo');
+	CountrySubDivision('MKD','08','Brvenica');
+	CountrySubDivision('MKD','09','Butel');
+	CountrySubDivision('MKD','10','Valandovo');
+	CountrySubDivision('MKD','11','Vasilevo');
+	CountrySubDivision('MKD','12','Vevčani');
+	CountrySubDivision('MKD','13','Veles');
+	CountrySubDivision('MKD','14','Vinica');
+	CountrySubDivision('MKD','15','Vraneštica');
+	CountrySubDivision('MKD','16','Vrapčište');
+	CountrySubDivision('MKD','17','Gazi Baba');
+	CountrySubDivision('MKD','18','Gevgelija');
+	CountrySubDivision('MKD','19','Gostivar');
+	CountrySubDivision('MKD','20','Gradsko');
+	CountrySubDivision('MKD','21','Debar');
+	CountrySubDivision('MKD','22','Debarca');
+	CountrySubDivision('MKD','23','Delčevo');
+	CountrySubDivision('MKD','24','Demir Kapija');
+	CountrySubDivision('MKD','25','Demir Hisar');
+	CountrySubDivision('MKD','26','Dojran');
+	CountrySubDivision('MKD','27','Dolneni');
+	CountrySubDivision('MKD','28','Drugovo');
+	CountrySubDivision('MKD','29','Gjorče Petrov');
+	CountrySubDivision('MKD','30','Želino');
+	CountrySubDivision('MKD','31','Zajas');
+	CountrySubDivision('MKD','32','Zelenikovo');
+	CountrySubDivision('MKD','33','Zrnovci');
+	CountrySubDivision('MKD','34','Ilinden');
+	CountrySubDivision('MKD','35','Jegunovce');
+	CountrySubDivision('MKD','36','Kavadarci');
+	CountrySubDivision('MKD','37','Karbinci');
+	CountrySubDivision('MKD','38','Karpoš');
+	CountrySubDivision('MKD','39','Kisela Voda');
+	CountrySubDivision('MKD','40','Kičevo');
+	CountrySubDivision('MKD','41','Konče');
+	CountrySubDivision('MKD','42','Kočani');
+	CountrySubDivision('MKD','43','Kratovo');
+	CountrySubDivision('MKD','44','Kriva Palanka');
+	CountrySubDivision('MKD','45','Krivogaštani');
+	CountrySubDivision('MKD','46','Kruševo');
+	CountrySubDivision('MKD','47','Kumanovo');
+	CountrySubDivision('MKD','48','Lipkovo');
+	CountrySubDivision('MKD','49','Lozovo');
+	CountrySubDivision('MKD','50','Mavrovo-i-Rostuša');
+	CountrySubDivision('MKD','51','Makedonska Kamenica');
+	CountrySubDivision('MKD','52','Makedonski Brod');
+	CountrySubDivision('MKD','53','Mogila');
+	CountrySubDivision('MKD','54','Negotino');
+	CountrySubDivision('MKD','55','Novaci');
+	CountrySubDivision('MKD','56','Novo Selo');
+	CountrySubDivision('MKD','57','Oslomej');
+	CountrySubDivision('MKD','58','Ohrid');
+	CountrySubDivision('MKD','59','Petrovec');
+	CountrySubDivision('MKD','60','Pehčevo');
+	CountrySubDivision('MKD','61','Plasnica');
+	CountrySubDivision('MKD','62','Prilep');
+	CountrySubDivision('MKD','63','Probištip');
+	CountrySubDivision('MKD','64','Radoviš');
+	CountrySubDivision('MKD','65','Rankovce');
+	CountrySubDivision('MKD','66','Resen');
+	CountrySubDivision('MKD','67','Rosoman');
+	CountrySubDivision('MKD','68','Saraj');
+	CountrySubDivision('MKD','69','Sveti Nikole');
+	CountrySubDivision('MKD','70','Sopište');
+	CountrySubDivision('MKD','71','Staro Nagoričane');
+	CountrySubDivision('MKD','72','Struga');
+	CountrySubDivision('MKD','73','Strumica');
+	CountrySubDivision('MKD','74','Studeničani');
+	CountrySubDivision('MKD','75','Tearce');
+	CountrySubDivision('MKD','76','Tetovo');
+	CountrySubDivision('MKD','77','Centar');
+	CountrySubDivision('MKD','78','Centar Župa');
+	CountrySubDivision('MKD','79','Čair');
+	CountrySubDivision('MKD','80','Čaška');
+	CountrySubDivision('MKD','81','Češinovo-Obleševo');
+	CountrySubDivision('MKD','82','Čučer Sandevo');
+	CountrySubDivision('MKD','83','Štip');
+	CountrySubDivision('MKD','84','Šuto Orizari');
+
+	// Norway (NOR)
+	CountrySubDivision('NOR','01','Østfold');
+	CountrySubDivision('NOR','02','Akershus');
+	CountrySubDivision('NOR','03','Oslo');
+	CountrySubDivision('NOR','04','Hedmark');
+	CountrySubDivision('NOR','05','Oppland');
+	CountrySubDivision('NOR','06','Buskerud');
+	CountrySubDivision('NOR','07','Vestfold');
+	CountrySubDivision('NOR','08','Telemark');
+	CountrySubDivision('NOR','09','Aust-Agder');
+	CountrySubDivision('NOR','10','Vest-Agder');
+	CountrySubDivision('NOR','11','Rogaland');
+	CountrySubDivision('NOR','12','Hordaland');
+	CountrySubDivision('NOR','14','Sogn og Fjordane');
+	CountrySubDivision('NOR','15','Møre og Romsdal');
+	CountrySubDivision('NOR','18','Nordland');
+	CountrySubDivision('NOR','19','Troms');
+	CountrySubDivision('NOR','20','Finnmark');
+	CountrySubDivision('NOR','21','Svalbard (Arctic Region)');
+	CountrySubDivision('NOR','22','Jan Mayen (Arctic Region)');
+	CountrySubDivision('NOR','50','Trøndelag');
+
+	// Poland (POL)
+	CountrySubDivision('POL','DS','Dolnośląskie');
+	CountrySubDivision('POL','KP','Kujawsko-pomorskie');
+	CountrySubDivision('POL','LB','Lubuskie');
+	CountrySubDivision('POL','LD','Łódzkie');
+	CountrySubDivision('POL','LU','Lubelskie');
+	CountrySubDivision('POL','MA','Małopolskie');
+	CountrySubDivision('POL','MZ','Mazowieckie');
+	CountrySubDivision('POL','OP','Opolskie');
+	CountrySubDivision('POL','PD','Podlaskie');
+	CountrySubDivision('POL','PK','Podkarpackie');
+	CountrySubDivision('POL','PM','Pomorskie');
+	CountrySubDivision('POL','SK','Świętokrzyskie');
+	CountrySubDivision('POL','SL','Śląskie');
+	CountrySubDivision('POL','WN','Warmińsko-mazurskie');
+	CountrySubDivision('POL','WP','Wielkopolskie');
+	CountrySubDivision('POL','ZP','Zachodniopomorskie');
+
+	// Portugal (PRT)
+	CountrySubDivision('PRT','01','Aveiro');
+	CountrySubDivision('PRT','02','Beja');
+	CountrySubDivision('PRT','03','Braga');
+	CountrySubDivision('PRT','04','Bragança');
+	CountrySubDivision('PRT','05','Castelo Branco');
+	CountrySubDivision('PRT','06','Coimbra');
+	CountrySubDivision('PRT','07','Évora');
+	CountrySubDivision('PRT','08','Faro');
+	CountrySubDivision('PRT','09','Guarda');
+	CountrySubDivision('PRT','10','Leiria');
+	CountrySubDivision('PRT','11','Lisboa');
+	CountrySubDivision('PRT','12','Portalegre');
+	CountrySubDivision('PRT','13','Porto');
+	CountrySubDivision('PRT','14','Santarém');
+	CountrySubDivision('PRT','15','Setúbal');
+	CountrySubDivision('PRT','16','Viana do Castelo');
+	CountrySubDivision('PRT','17','Vila Real');
+	CountrySubDivision('PRT','18','Viseu');
+	CountrySubDivision('PRT','20','Região Autónoma dos Açores');
+	CountrySubDivision('PRT','30','Região Autónoma da Madeira');
+
+	// Romania (ROU)
+	CountrySubDivision('ROU','AB','Alba');
+	CountrySubDivision('ROU','AG','Argeș');
+	CountrySubDivision('ROU','AR','Arad');
+	CountrySubDivision('ROU','B','București');
+	CountrySubDivision('ROU','BC','Bacău');
+	CountrySubDivision('ROU','BH','Bihor');
+	CountrySubDivision('ROU','BN','Bistrița-Năsăud');
+	CountrySubDivision('ROU','BR','Brăila');
+	CountrySubDivision('ROU','BT','Botoșani');
+	CountrySubDivision('ROU','BV','Brașov');
+	CountrySubDivision('ROU','BZ','Buzău');
+	CountrySubDivision('ROU','CJ','Cluj');
+	CountrySubDivision('ROU','CL','Călărași');
+	CountrySubDivision('ROU','CS','Caraș-Severin');
+	CountrySubDivision('ROU','CT','Constanța');
+	CountrySubDivision('ROU','CV','Covasna');
+	CountrySubDivision('ROU','DB','Dâmbovița');
+	CountrySubDivision('ROU','DJ','Dolj');
+	CountrySubDivision('ROU','GJ','Gorj');
+	CountrySubDivision('ROU','GL','Galați');
+	CountrySubDivision('ROU','GR','Giurgiu');
+	CountrySubDivision('ROU','HD','Hunedoara');
+	CountrySubDivision('ROU','HR','Harghita');
+	CountrySubDivision('ROU','IF','Ilfov');
+	CountrySubDivision('ROU','IL','Ialomița');
+	CountrySubDivision('ROU','IS','Iași');
+	CountrySubDivision('ROU','MH','Mehedinți');
+	CountrySubDivision('ROU','MM','Maramureș');
+	CountrySubDivision('ROU','MS','Mureș');
+	CountrySubDivision('ROU','NT','Neamț');
+	CountrySubDivision('ROU','OT','Olt');
+	CountrySubDivision('ROU','PH','Prahova');
+	CountrySubDivision('ROU','SB','Sibiu');
+	CountrySubDivision('ROU','SJ','Sălaj');
+	CountrySubDivision('ROU','SM','Satu Mare');
+	CountrySubDivision('ROU','SV','Suceava');
+	CountrySubDivision('ROU','TL','Tulcea');
+	CountrySubDivision('ROU','TM','Timiș');
+	CountrySubDivision('ROU','TR','Teleorman');
+	CountrySubDivision('ROU','VL','Vâlcea');
+	CountrySubDivision('ROU','VN','Vrancea');
+	CountrySubDivision('ROU','VS','Vaslui');
+
+	// San Marino (SMR)
+	CountrySubDivision('SMR','01','Acquaviva');
+	CountrySubDivision('SMR','02','Chiesanuova');
+	CountrySubDivision('SMR','03','Domagnano');
+	CountrySubDivision('SMR','04','Faetano');
+	CountrySubDivision('SMR','05','Fiorentino');
+	CountrySubDivision('SMR','06','Borgo Maggiore');
+	CountrySubDivision('SMR','07','San Marino');
+	CountrySubDivision('SMR','08','Montegiardino');
+	CountrySubDivision('SMR','09','Serravalle');
+
+	// Serbia (SRB)
+	CountrySubDivision('SRB','00','Beograd');
+	CountrySubDivision('SRB','08','Mačvanski okrug');
+	CountrySubDivision('SRB','09','Kolubarski okrug');
+	CountrySubDivision('SRB','10','Podunavski okrug');
+	CountrySubDivision('SRB','11','Braničevski okrug');
+	CountrySubDivision('SRB','12','Šumadijski okrug');
+	CountrySubDivision('SRB','13','Pomoravski okrug');
+	CountrySubDivision('SRB','14','Borski okrug');
+	CountrySubDivision('SRB','15','Zaječarski okrug');
+	CountrySubDivision('SRB','16','Zlatiborski okrug');
+	CountrySubDivision('SRB','17','Moravički okrug');
+	CountrySubDivision('SRB','18','Raški okrug');
+	CountrySubDivision('SRB','19','Rasinski okrug');
+	CountrySubDivision('SRB','20','Nišavski okrug');
+	CountrySubDivision('SRB','21','Toplički okrug');
+	CountrySubDivision('SRB','22','Pirotski okrug');
+	CountrySubDivision('SRB','23','Jablanički okrug');
+	CountrySubDivision('SRB','24','Pčinjski okrug');
+	CountrySubDivision('SRB','KM','Kosovo-Metohija');
+	CountrySubDivision('SRB','VO','Vojvodina');
+
+	// Slovakia (SVK)
+	CountrySubDivision('SVK','BC','Banskobystrický kraj');
+	CountrySubDivision('SVK','BL','Bratislavský kraj');
+	CountrySubDivision('SVK','KI','Košický kraj');
+	CountrySubDivision('SVK','NI','Nitriansky kraj');
+	CountrySubDivision('SVK','PV','Prešovský kraj');
+	CountrySubDivision('SVK','TA','Trnavský kraj');
+	CountrySubDivision('SVK','TC','Trenčiansky kraj');
+	CountrySubDivision('SVK','ZI','Žilinský kraj');
+
+	// Slovenia (SVN)
+	CountrySubDivision('SVN','001','Ajdovščina');
+	CountrySubDivision('SVN','002','Beltinci');
+	CountrySubDivision('SVN','003','Bled');
+	CountrySubDivision('SVN','004','Bohinj');
+	CountrySubDivision('SVN','005','Borovnica');
+	CountrySubDivision('SVN','006','Bovec');
+	CountrySubDivision('SVN','007','Brda');
+	CountrySubDivision('SVN','008','Brezovica');
+	CountrySubDivision('SVN','009','Brežice');
+	CountrySubDivision('SVN','010','Tišina');
+	CountrySubDivision('SVN','011','Celje');
+	CountrySubDivision('SVN','012','Cerklje na Gorenjskem');
+	CountrySubDivision('SVN','013','Cerknica');
+	CountrySubDivision('SVN','014','Cerkno');
+	CountrySubDivision('SVN','015','Črenšovci');
+	CountrySubDivision('SVN','016','Črna na Koroškem');
+	CountrySubDivision('SVN','017','Črnomelj');
+	CountrySubDivision('SVN','018','Destrnik');
+	CountrySubDivision('SVN','019','Divača');
+	CountrySubDivision('SVN','020','Dobrepolje');
+	CountrySubDivision('SVN','021','Dobrova-Polhov Gradec');
+	CountrySubDivision('SVN','022','Dol pri Ljubljani');
+	CountrySubDivision('SVN','023','Domžale');
+	CountrySubDivision('SVN','024','Dornava');
+	CountrySubDivision('SVN','025','Dravograd');
+	CountrySubDivision('SVN','026','Duplek');
+	CountrySubDivision('SVN','027','Gorenja vas-Poljane');
+	CountrySubDivision('SVN','028','Gorišnica');
+	CountrySubDivision('SVN','029','Gornja Radgona');
+	CountrySubDivision('SVN','030','Gornji Grad');
+	CountrySubDivision('SVN','031','Gornji Petrovci');
+	CountrySubDivision('SVN','032','Grosuplje');
+	CountrySubDivision('SVN','033','Šalovci');
+	CountrySubDivision('SVN','034','Hrastnik');
+	CountrySubDivision('SVN','035','Hrpelje-Kozina');
+	CountrySubDivision('SVN','036','Idrija');
+	CountrySubDivision('SVN','037','Ig');
+	CountrySubDivision('SVN','038','Ilirska Bistrica');
+	CountrySubDivision('SVN','039','Ivančna Gorica');
+	CountrySubDivision('SVN','040','Izola/Isola');
+	CountrySubDivision('SVN','041','Jesenice');
+	CountrySubDivision('SVN','042','Juršinci');
+	CountrySubDivision('SVN','043','Kamnik');
+	CountrySubDivision('SVN','044','Kanal');
+	CountrySubDivision('SVN','045','Kidričevo');
+	CountrySubDivision('SVN','046','Kobarid');
+	CountrySubDivision('SVN','047','Kobilje');
+	CountrySubDivision('SVN','048','Kočevje');
+	CountrySubDivision('SVN','049','Komen');
+	CountrySubDivision('SVN','050','Koper/Capodistria');
+	CountrySubDivision('SVN','051','Kozje');
+	CountrySubDivision('SVN','052','Kranj');
+	CountrySubDivision('SVN','053','Kranjska Gora');
+	CountrySubDivision('SVN','054','Krško');
+	CountrySubDivision('SVN','055','Kungota');
+	CountrySubDivision('SVN','056','Kuzma');
+	CountrySubDivision('SVN','057','Laško');
+	CountrySubDivision('SVN','058','Lenart');
+	CountrySubDivision('SVN','059','Lendava/Lendva');
+	CountrySubDivision('SVN','060','Litija');
+	CountrySubDivision('SVN','061','Ljubljana');
+	CountrySubDivision('SVN','062','Ljubno');
+	CountrySubDivision('SVN','063','Ljutomer');
+	CountrySubDivision('SVN','064','Logatec');
+	CountrySubDivision('SVN','065','Loška dolina');
+	CountrySubDivision('SVN','066','Loški Potok');
+	CountrySubDivision('SVN','067','Luče');
+	CountrySubDivision('SVN','068','Lukovica');
+	CountrySubDivision('SVN','069','Majšperk');
+	CountrySubDivision('SVN','070','Maribor');
+	CountrySubDivision('SVN','071','Medvode');
+	CountrySubDivision('SVN','072','Mengeš');
+	CountrySubDivision('SVN','073','Metlika');
+	CountrySubDivision('SVN','074','Mežica');
+	CountrySubDivision('SVN','075','Miren-Kostanjevica');
+	CountrySubDivision('SVN','076','Mislinja');
+	CountrySubDivision('SVN','077','Moravče');
+	CountrySubDivision('SVN','078','Moravske Toplice');
+	CountrySubDivision('SVN','079','Mozirje');
+	CountrySubDivision('SVN','080','Murska Sobota');
+	CountrySubDivision('SVN','081','Muta');
+	CountrySubDivision('SVN','082','Naklo');
+	CountrySubDivision('SVN','083','Nazarje');
+	CountrySubDivision('SVN','084','Nova Gorica');
+	CountrySubDivision('SVN','085','Novo mesto');
+	CountrySubDivision('SVN','086','Odranci');
+	CountrySubDivision('SVN','087','Ormož');
+	CountrySubDivision('SVN','088','Osilnica');
+	CountrySubDivision('SVN','089','Pesnica');
+	CountrySubDivision('SVN','090','Piran/Pirano');
+	CountrySubDivision('SVN','091','Pivka');
+	CountrySubDivision('SVN','092','Podčetrtek');
+	CountrySubDivision('SVN','093','Podvelka');
+	CountrySubDivision('SVN','094','Postojna');
+	CountrySubDivision('SVN','095','Preddvor');
+	CountrySubDivision('SVN','096','Ptuj');
+	CountrySubDivision('SVN','097','Puconci');
+	CountrySubDivision('SVN','098','Rače-Fram');
+	CountrySubDivision('SVN','099','Radeče');
+	CountrySubDivision('SVN','100','Radenci');
+	CountrySubDivision('SVN','101','Radlje ob Dravi');
+	CountrySubDivision('SVN','102','Radovljica');
+	CountrySubDivision('SVN','103','Ravne na Koroškem');
+	CountrySubDivision('SVN','104','Ribnica');
+	CountrySubDivision('SVN','105','Rogašovci');
+	CountrySubDivision('SVN','106','Rogaška Slatina');
+	CountrySubDivision('SVN','107','Rogatec');
+	CountrySubDivision('SVN','108','Ruše');
+	CountrySubDivision('SVN','109','Semič');
+	CountrySubDivision('SVN','110','Sevnica');
+	CountrySubDivision('SVN','111','Sežana');
+	CountrySubDivision('SVN','112','Slovenj Gradec');
+	CountrySubDivision('SVN','113','Slovenska Bistrica');
+	CountrySubDivision('SVN','114','Slovenske Konjice');
+	CountrySubDivision('SVN','115','Starče');
+	CountrySubDivision('SVN','116','Sveti Jurij');
+	CountrySubDivision('SVN','117','Šenčur');
+	CountrySubDivision('SVN','118','Šentilj');
+	CountrySubDivision('SVN','119','Šentjernej');
+	CountrySubDivision('SVN','120','Šentjur');
+	CountrySubDivision('SVN','121','Škocjan');
+	CountrySubDivision('SVN','122','Škofja Loka');
+	CountrySubDivision('SVN','123','Škofljica');
+	CountrySubDivision('SVN','124','Šmarje pri Jelšah');
+	CountrySubDivision('SVN','125','Šmartno ob Paki');
+	CountrySubDivision('SVN','126','Šoštanj');
+	CountrySubDivision('SVN','127','Štore');
+	CountrySubDivision('SVN','128','Tolmin');
+	CountrySubDivision('SVN','129','Trbovlje');
+	CountrySubDivision('SVN','130','Trebnje');
+	CountrySubDivision('SVN','131','Tržič');
+	CountrySubDivision('SVN','132','Turnišče');
+	CountrySubDivision('SVN','133','Velenje');
+	CountrySubDivision('SVN','134','Velike Lašče');
+	CountrySubDivision('SVN','135','Videm');
+	CountrySubDivision('SVN','136','Vipava');
+	CountrySubDivision('SVN','137','Vitanje');
+	CountrySubDivision('SVN','138','Vodice');
+	CountrySubDivision('SVN','139','Vojnik');
+	CountrySubDivision('SVN','140','Vrhnika');
+	CountrySubDivision('SVN','141','Vuzenica');
+	CountrySubDivision('SVN','142','Zagorje ob Savi');
+	CountrySubDivision('SVN','143','Zavrč');
+	CountrySubDivision('SVN','144','Zreče');
+	CountrySubDivision('SVN','146','Železniki');
+	CountrySubDivision('SVN','147','Žiri');
+	CountrySubDivision('SVN','148','Benedikt');
+	CountrySubDivision('SVN','149','Bistrica ob Sotli');
+	CountrySubDivision('SVN','150','Bloke');
+	CountrySubDivision('SVN','151','Braslovče');
+	CountrySubDivision('SVN','152','Cankova');
+	CountrySubDivision('SVN','153','Cerkvenjak');
+	CountrySubDivision('SVN','154','Dobje');
+	CountrySubDivision('SVN','155','Dobrna');
+	CountrySubDivision('SVN','156','Dobrovnik/Dobronak');
+	CountrySubDivision('SVN','157','Dolenjske Toplice');
+	CountrySubDivision('SVN','158','Grad');
+	CountrySubDivision('SVN','159','Hajdina');
+	CountrySubDivision('SVN','160','Hoče-Slivnica');
+	CountrySubDivision('SVN','161','Hodoš/Hodos');
+	CountrySubDivision('SVN','162','Horjul');
+	CountrySubDivision('SVN','163','Jezersko');
+	CountrySubDivision('SVN','164','Komenda');
+	CountrySubDivision('SVN','165','Kostel');
+	CountrySubDivision('SVN','166','Križevci');
+	CountrySubDivision('SVN','167','Lovrenc na Pohorju');
+	CountrySubDivision('SVN','168','Markovci');
+	CountrySubDivision('SVN','169','Miklavž na Dravskem polju');
+	CountrySubDivision('SVN','170','Mirna Peč');
+	CountrySubDivision('SVN','171','Oplotnica');
+	CountrySubDivision('SVN','172','Podlehnik');
+	CountrySubDivision('SVN','173','Polzela');
+	CountrySubDivision('SVN','174','Prebold');
+	CountrySubDivision('SVN','175','Prevalje');
+	CountrySubDivision('SVN','176','Razkrižje');
+	CountrySubDivision('SVN','177','Ribnica na Pohorju');
+	CountrySubDivision('SVN','178','Selnica ob Dravi');
+	CountrySubDivision('SVN','179','Sodražica');
+	CountrySubDivision('SVN','180','Solčava');
+	CountrySubDivision('SVN','181','Sveta Ana');
+	CountrySubDivision('SVN','182','Sveta Andraž v Slovenskih Goricah');
+	CountrySubDivision('SVN','183','Šempeter-Vrtojba');
+	CountrySubDivision('SVN','184','Tabor');
+	CountrySubDivision('SVN','185','Trnovska vas');
+	CountrySubDivision('SVN','186','Trzin');
+	CountrySubDivision('SVN','187','Velika Polana');
+	CountrySubDivision('SVN','188','Veržej');
+	CountrySubDivision('SVN','189','Vransko');
+	CountrySubDivision('SVN','190','Žalec');
+	CountrySubDivision('SVN','191','Žetale');
+	CountrySubDivision('SVN','192','Žirovnica');
+	CountrySubDivision('SVN','193','Žužemberk');
+	CountrySubDivision('SVN','194','Šmartno pri Litiji');
+	CountrySubDivision('SVN','195','Apače');
+	CountrySubDivision('SVN','196','Cirkulane');
+	CountrySubDivision('SVN','197','Kosanjevica na Krki');
+	CountrySubDivision('SVN','198','Makole');
+	CountrySubDivision('SVN','199','Mokronog-Trebelno');
+	CountrySubDivision('SVN','200','Poljčane');
+	CountrySubDivision('SVN','201','Renče-Vogrsko');
+	CountrySubDivision('SVN','202','Središče ob Dravi');
+	CountrySubDivision('SVN','203','Straža');
+	CountrySubDivision('SVN','204','Sveta Trojica v Slovenskih Goricah');
+	CountrySubDivision('SVN','205','Sveti Tomaž');
+	CountrySubDivision('SVN','206','Šmarjeske Topliče');
+	CountrySubDivision('SVN','207','Gorje');
+	CountrySubDivision('SVN','208','Log-Dragomer');
+	CountrySubDivision('SVN','209','Rečica ob Savinji');
+	CountrySubDivision('SVN','210','Sveti Jurij v Slovenskih Goricah');
+	CountrySubDivision('SVN','211','Šentrupert');
+
+	// Spain (ESP)
+	CountrySubDivision('ESP','AN','Andalucía');
+	CountrySubDivision('ESP','AR','Aragón');
+	CountrySubDivision('ESP','AS','Asturias, Principado de');
+	CountrySubDivision('ESP','CB','Cantabria');
+	CountrySubDivision('ESP','CE','Ceuta');
+	CountrySubDivision('ESP','CL','Castilla y León');
+	CountrySubDivision('ESP','CM','Castilla-La Mancha');
+	CountrySubDivision('ESP','CN','Canarias');
+	CountrySubDivision('ESP','CT','Catalunya');
+	CountrySubDivision('ESP','EX','Extremadura');
+	CountrySubDivision('ESP','GA','Galicia');
+	CountrySubDivision('ESP','IB','Illes Balears');
+	CountrySubDivision('ESP','MC','Murcia, Región de');
+	CountrySubDivision('ESP','MD','Madrid, Comunidad de');
+	CountrySubDivision('ESP','ML','Melilla');
+	CountrySubDivision('ESP','NC','Navarra, Comunidad Foral de / Nafarroako Foru Komunitatea');
+	CountrySubDivision('ESP','PV','País Vasco / Euskal Herria');
+	CountrySubDivision('ESP','RI','La Rioja');
+	CountrySubDivision('ESP','VC','Valenciana, Comunidad / Valenciana, Comunitat');
+
+	// Sweden (SWE)
+	CountrySubDivision('SWE','AB','Stockholms län');
+	CountrySubDivision('SWE','AC','Västerbottens län');
+	CountrySubDivision('SWE','BD','Norrbottens län');
+	CountrySubDivision('SWE','C','Uppsala län');
+	CountrySubDivision('SWE','D','Södermanlands län');
+	CountrySubDivision('SWE','E','Östergötlands län');
+	CountrySubDivision('SWE','F','Jönköpings län');
+	CountrySubDivision('SWE','G','Kronobergs län');
+	CountrySubDivision('SWE','H','Kalmar län');
+	CountrySubDivision('SWE','I','Gotlands län');
+	CountrySubDivision('SWE','K','Blekinge län');
+	CountrySubDivision('SWE','M','Skåne län');
+	CountrySubDivision('SWE','N','Hallands län');
+	CountrySubDivision('SWE','O','Västra Götalands län');
+	CountrySubDivision('SWE','S','Värmlands län');
+	CountrySubDivision('SWE','T','Örebro län');
+	CountrySubDivision('SWE','U','Västmanlands län');
+	CountrySubDivision('SWE','W','Dalarnas län');
+	CountrySubDivision('SWE','X','Gävleborgs län');
+	CountrySubDivision('SWE','Y','Västernorrlands län');
+	CountrySubDivision('SWE','Z','Jämtlands län');
+
+	// Switzerland (CHE)
+	CountrySubDivision('CHE','AG','Aargau');
+	CountrySubDivision('CHE','AI','Appenzell Innerrhoden');
+	CountrySubDivision('CHE','AR','Appenzell Ausserrhoden');
+	CountrySubDivision('CHE','BE','Bern');
+	CountrySubDivision('CHE','BL','Basel-Landschaft');
+	CountrySubDivision('CHE','BS','Basel-Stadt');
+	CountrySubDivision('CHE','FR','Fribourg');
+	CountrySubDivision('CHE','GE','Genève');
+	CountrySubDivision('CHE','GL','Glarus');
+	CountrySubDivision('CHE','GR','Graubünden');
+	CountrySubDivision('CHE','JU','Jura');
+	CountrySubDivision('CHE','LU','Luzern');
+	CountrySubDivision('CHE','NE','Neuchâtel');
+	CountrySubDivision('CHE','NW','Nidwalden');
+	CountrySubDivision('CHE','OW','Obwalden');
+	CountrySubDivision('CHE','SG','Sankt Gallen');
+	CountrySubDivision('CHE','SH','Schaffhausen');
+	CountrySubDivision('CHE','SO','Solothurn');
+	CountrySubDivision('CHE','SZ','Schwyz');
+	CountrySubDivision('CHE','TG','Thurgau');
+	CountrySubDivision('CHE','TI','Ticino');
+	CountrySubDivision('CHE','UR','Uri');
+	CountrySubDivision('CHE','VD','Vaud');
+	CountrySubDivision('CHE','VS','Valais');
+	CountrySubDivision('CHE','ZG','Zug');
+	CountrySubDivision('CHE','ZH','Zürich');
+
+	// Turkey (TUR)
+	CountrySubDivision('TUR','01','Adana');
+	CountrySubDivision('TUR','02','Adıyaman');
+	CountrySubDivision('TUR','03','Afyonkarahisar');
+	CountrySubDivision('TUR','04','Ağrı');
+	CountrySubDivision('TUR','05','Amasya');
+	CountrySubDivision('TUR','06','Ankara');
+	CountrySubDivision('TUR','07','Antalya');
+	CountrySubDivision('TUR','08','Artvin');
+	CountrySubDivision('TUR','09','Aydın');
+	CountrySubDivision('TUR','10','Balıkesir');
+	CountrySubDivision('TUR','11','Bilecik');
+	CountrySubDivision('TUR','12','Bingöl');
+	CountrySubDivision('TUR','13','Bitlis');
+	CountrySubDivision('TUR','14','Bolu');
+	CountrySubDivision('TUR','15','Burdur');
+	CountrySubDivision('TUR','16','Bursa');
+	CountrySubDivision('TUR','17','Çanakkale');
+	CountrySubDivision('TUR','18','Çankırı');
+	CountrySubDivision('TUR','19','Çorum');
+	CountrySubDivision('TUR','20','Denizli');
+	CountrySubDivision('TUR','21','Diyarbakır');
+	CountrySubDivision('TUR','22','Edirne');
+	CountrySubDivision('TUR','23','Elazığ');
+	CountrySubDivision('TUR','24','Erzincan');
+	CountrySubDivision('TUR','25','Erzurum');
+	CountrySubDivision('TUR','26','Eskişehir');
+	CountrySubDivision('TUR','27','Gaziantep');
+	CountrySubDivision('TUR','28','Giresun');
+	CountrySubDivision('TUR','29','Gümüşhane');
+	CountrySubDivision('TUR','30','Hakkâri');
+	CountrySubDivision('TUR','31','Hatay');
+	CountrySubDivision('TUR','32','Isparta');
+	CountrySubDivision('TUR','33','Mersin');
+	CountrySubDivision('TUR','34','İstanbul');
+	CountrySubDivision('TUR','35','İzmir');
+	CountrySubDivision('TUR','36','Kars');
+	CountrySubDivision('TUR','37','Kastamonu');
+	CountrySubDivision('TUR','38','Kayseri');
+	CountrySubDivision('TUR','39','Kırklareli');
+	CountrySubDivision('TUR','40','Kırşehir');
+	CountrySubDivision('TUR','41','Kocaeli');
+	CountrySubDivision('TUR','42','Konya');
+	CountrySubDivision('TUR','43','Kütahya');
+	CountrySubDivision('TUR','44','Malatya');
+	CountrySubDivision('TUR','45','Manisa');
+	CountrySubDivision('TUR','46','Kahramanmaraş');
+	CountrySubDivision('TUR','47','Mardin');
+	CountrySubDivision('TUR','48','Muğla');
+	CountrySubDivision('TUR','49','Muş');
+	CountrySubDivision('TUR','50','Nevşehir');
+	CountrySubDivision('TUR','51','Niğde');
+	CountrySubDivision('TUR','52','Ordu');
+	CountrySubDivision('TUR','53','Rize');
+	CountrySubDivision('TUR','54','Sakarya');
+	CountrySubDivision('TUR','55','Samsun');
+	CountrySubDivision('TUR','56','Siirt');
+	CountrySubDivision('TUR','57','Sinop');
+	CountrySubDivision('TUR','58','Sivas');
+	CountrySubDivision('TUR','59','Tekirdağ');
+	CountrySubDivision('TUR','60','Tokat');
+	CountrySubDivision('TUR','61','Trabzon');
+	CountrySubDivision('TUR','62','Tunceli');
+	CountrySubDivision('TUR','63','Şanlıurfa');
+	CountrySubDivision('TUR','64','Uşak');
+	CountrySubDivision('TUR','65','Van');
+	CountrySubDivision('TUR','66','Yozgat');
+	CountrySubDivision('TUR','67','Zonguldak');
+	CountrySubDivision('TUR','68','Aksaray');
+	CountrySubDivision('TUR','69','Bayburt');
+	CountrySubDivision('TUR','70','Karaman');
+	CountrySubDivision('TUR','71','Kırıkkale');
+	CountrySubDivision('TUR','72','Batman');
+	CountrySubDivision('TUR','73','Şırnak');
+	CountrySubDivision('TUR','74','Bartın');
+	CountrySubDivision('TUR','75','Ardahan');
+	CountrySubDivision('TUR','76','Iğdır');
+	CountrySubDivision('TUR','77','Yalova');
+	CountrySubDivision('TUR','78','Karabük');
+	CountrySubDivision('TUR','79','Kilis');
+	CountrySubDivision('TUR','80','Osmaniye');
+	CountrySubDivision('TUR','81','Düzce');
+
+	// Ukraine (UKR)
+	CountrySubDivision('UKR','05','Вінницька область','Vinnytsia Oblast');
+	CountrySubDivision('UKR','07','Волинська область','Volyn Oblast');
+	CountrySubDivision('UKR','09','Луганська область','Luhansk Oblast');
 	CountrySubDivision('UKR','12','Дніпропетровська область','Dnipropetrovsk Oblast');
 	CountrySubDivision('UKR','14','Донецька область','Donetsk Oblast');
+	CountrySubDivision('UKR','18','Житомирська область','Zhytomyr Oblast');
+	CountrySubDivision('UKR','21','Закарпатська область','Zakarpattia Oblast');
+	CountrySubDivision('UKR','23','Запорізька область','Zaporizhzhia Oblast');
 	CountrySubDivision('UKR','26','Івано-Франківська область','Ivano-Frankivsk Oblast');
-	CountrySubDivision('UKR','63','Харківська область','Kharkiv Oblast');
-	CountrySubDivision('UKR','65','Херсонська область','Kherson Oblast');
-	CountrySubDivision('UKR','68','Хмельницька область','Khmelnytskyi Oblast');
-	CountrySubDivision('UKR','35','Кіровоградська область','Kirovohrad Oblast');
+	CountrySubDivision('UKR','30','Київ','Kyiv');
 	CountrySubDivision('UKR','32','Київська область','Kyiv Oblast');
-	CountrySubDivision('UKR','09','Луганська область','Luhansk Oblast');
+	CountrySubDivision('UKR','35','Кіровоградська область','Kirovohrad Oblast');
+	CountrySubDivision('UKR','40','Севастополь','Sevastopol');
+	CountrySubDivision('UKR','43','Автономна Республіка Крим','Autonomous Republic of Crimea');
 	CountrySubDivision('UKR','46','Львівська область','Lviv Oblast');
 	CountrySubDivision('UKR','48','Миколаївська область','Mykolaiv Oblast');
 	CountrySubDivision('UKR','51','Одеська область','Odesa Oblast');
@@ -316,14 +1607,19 @@
 	CountrySubDivision('UKR','56','Рівненська область','Rivne Oblast');
 	CountrySubDivision('UKR','59','Сумська область','Sumy Oblast');
 	CountrySubDivision('UKR','61','Тернопільська область','Ternopil Oblast');
-	CountrySubDivision('UKR','05','Вінницька область','Vinnytsia Oblast');
-	CountrySubDivision('UKR','07','Волинська область','Volyn Oblast');
-	CountrySubDivision('UKR','21','Закарпатська область','Zakarpattia Oblast');
-	CountrySubDivision('UKR','23','Запорізька область','Zaporizhzhia Oblast');
-	CountrySubDivision('UKR','18','Житомирська область','Zhytomyr Oblast');
-	CountrySubDivision('UKR','30','Київ','Kyiv');
-	CountrySubDivision('UKR','40','Севастополь','Sevastopol');
+	CountrySubDivision('UKR','63','Харківська область','Kharkiv Oblast');
+	CountrySubDivision('UKR','65','Херсонська область','Kherson Oblast');
+	CountrySubDivision('UKR','68','Хмельницька область','Khmelnytskyi Oblast');
+	CountrySubDivision('UKR','71','Черкаська область','Cherkasy Oblast');
+	CountrySubDivision('UKR','74','Чернігівська область','Chernihiv Oblast');
+	CountrySubDivision('UKR','77','Чернівецька область','Chernivtsi Oblast');
 
+
+	// United Kingdom (GBR)
+	CountrySubDivision('GBR','ENG','England');
+	CountrySubDivision('GBR','NIR','Northern Ireland');
+	CountrySubDivision('GBR','SCT','Scotland');
+	CountrySubDivision('GBR','WLS','Cymru','Wales');
 	
 	return installer.Finish();
 }
@@ -332,14 +1628,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-04-15 23:32:59</sys_created_on>
         <sys_id>2bbc6c43dbf6cd10bcced03cd39619f3</sys_id>
-        <sys_mod_count>33</sys_mod_count>
+        <sys_mod_count>36</sys_mod_count>
         <sys_name>AppInstall</sys_name>
         <sys_package display_value="GeoData" source="x_snc_geodata">f9cb2003dbf6cd10bcced03cd396199e</sys_package>
         <sys_policy/>
         <sys_scope display_value="GeoData">f9cb2003dbf6cd10bcced03cd396199e</sys_scope>
         <sys_update_name>sys_script_include_2bbc6c43dbf6cd10bcced03cd39619f3</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-01-14 11:20:40</sys_updated_on>
+        <sys_updated_on>2026-02-21 15:00:31</sys_updated_on>
         <x_snc_devtools_sys_ui_script/>
     </sys_script_include>
 </record_update>

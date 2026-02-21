@@ -3,6 +3,7 @@
         <element label="ISO 3166-2 Code" mandatory="true" max_length="3" name="iso_3166_2_code" type="string"/>
         <element label="Name (EN)" max_length="200" name="name_en" type="string"/>
         <element display="true" label="Name" mandatory="true" max_length="200" name="name" type="string_full_utf8"/>
+        <element label="Level" max_length="40" name="level" type="integer"/>
         <element label="Country" mandatory="true" max_length="32" name="country" reference="core_country" type="reference"/>
         <index name="index">
             <element name="country"/>
