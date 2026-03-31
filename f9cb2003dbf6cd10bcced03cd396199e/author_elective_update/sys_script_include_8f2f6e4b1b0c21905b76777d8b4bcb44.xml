@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_snc_geodata.DevToolsGetApplicationStatus</api_name>
+        <caller_access>1</caller_access>
+        <client_callable>false</client_callable>
+        <description>The DevToolsGetApplicationStatus is called by the DevTools extension point instance class and returns the application status object with additional status information to be displayed on the "DevTools Application Overview" page.</description>
+        <mobile_callable>false</mobile_callable>
+        <name>DevToolsGetApplicationStatus</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[function DevToolsGetApplicationStatus(status)
+{
+	return status;
+}]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-02 08:32:29</sys_created_on>
+        <sys_id>8f2f6e4b1b0c21905b76777d8b4bcb44</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>DevToolsGetApplicationStatus</sys_name>
+        <sys_package display_value="GeoData WORK IN PROGRESS" source="x_snc_geodata">f9cb2003dbf6cd10bcced03cd396199e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GeoData WORK IN PROGRESS">f9cb2003dbf6cd10bcced03cd396199e</sys_scope>
+        <sys_update_name>sys_script_include_8f2f6e4b1b0c21905b76777d8b4bcb44</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-10 11:11:10</sys_updated_on>
+        <x_snc_devtools_sys_ui_script/>
+    </sys_script_include>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GeoData WORK IN PROGRESS">f9cb2003dbf6cd10bcced03cd396199e</application>
+        <file_path/>
+        <instance_id>a8cbb5133b6b5e540fd412c5e4e45a1f</instance_id>
+        <instance_name>wildyokohama</instance_name>
+        <name>sys_script_include_8f2f6e4b1b0c21905b76777d8b4bcb44</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;
+    &lt;sys_script_include action="INSERT_OR_UPDATE"&gt;
+        &lt;access&gt;public&lt;/access&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;api_name&gt;x_snc_geodata.DevToolsGetApplicationStatus&lt;/api_name&gt;
+        &lt;caller_access&gt;1&lt;/caller_access&gt;
+        &lt;client_callable&gt;false&lt;/client_callable&gt;
+        &lt;description&gt;The DevToolsGetApplicationStatus is called by the DevTools extension point instance class and returns the application status object with additional status information to be displayed on the "DevTools Application Overview" page.&lt;/description&gt;
+        &lt;mobile_callable&gt;false&lt;/mobile_callable&gt;
+        &lt;name&gt;DevToolsGetApplicationStatus&lt;/name&gt;
+        &lt;sandbox_callable&gt;false&lt;/sandbox_callable&gt;
+        &lt;script&gt;&lt;![CDATA[function DevToolsGetApplicationStatus(status)
+{
+	return status;
+}]]&gt;&lt;/script&gt;
+        &lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2023-01-02 08:32:29&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;8f2f6e4b1b0c21905b76777d8b4bcb44&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;DevToolsGetApplicationStatus&lt;/sys_name&gt;
+        &lt;sys_package display_value="GeoData WORK IN PROGRESS" source="x_snc_geodata"&gt;f9cb2003dbf6cd10bcced03cd396199e&lt;/sys_package&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_scope display_value="GeoData WORK IN PROGRESS"&gt;f9cb2003dbf6cd10bcced03cd396199e&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sys_script_include_8f2f6e4b1b0c21905b76777d8b4bcb44&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2024-03-10 11:11:10&lt;/sys_updated_on&gt;
+        &lt;x_snc_devtools_sys_ui_script/&gt;
+    &lt;/sys_script_include&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>850530940</payload_hash>
+        <record_name>DevToolsGetApplicationStatus</record_name>
+        <reverted_from/>
+        <source>6c8e65bc2b63ea109083fe395e91bfb9</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-08-21 12:28:04</sys_created_on>
+        <sys_id>198ea5bc2b63ea109083fe395e91bf39</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>198cc99be4a0000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-08-21 12:28:04</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>518ea5bc2363ea1057524d66933e8f39</update_guid>
+        <update_guid_history>518ea5bc2363ea1057524d66933e8f39:0,a4a90dc59b78ea10e881c8d63f480e0f:-1774654756</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-31 08:31:19</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>162f112cfd85491cb01c0edc2cedffc4</sys_id>
+        <sys_metadata>8f2f6e4b1b0c21905b76777d8b4bcb44</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>DevToolsGetApplicationStatus</sys_name>
+        <sys_package display_value="GeoData WORK IN PROGRESS" source="x_snc_geodata">f9cb2003dbf6cd10bcced03cd396199e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="GeoData WORK IN PROGRESS">f9cb2003dbf6cd10bcced03cd396199e</sys_scope>
+        <sys_scope_delete display_value="">4115b8b209934a5e90efa836161a0d24</sys_scope_delete>
+        <sys_update_name>sys_script_include_8f2f6e4b1b0c21905b76777d8b4bcb44</sys_update_name>
+        <sys_update_version display_value="sys_script_include_8f2f6e4b1b0c21905b76777d8b4bcb44">198ea5bc2b63ea109083fe395e91bf39</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-31 08:31:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
